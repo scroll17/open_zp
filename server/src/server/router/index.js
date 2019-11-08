@@ -1,6 +1,6 @@
-const express = requier('express');
+const express = require('express');
 
-const controlRoute = requier("./controlRoute");
+const controlRoute = require("./controlRoute");
 
 const router = express.Router();
 

@@ -18,3 +18,6 @@ app.use(
 );
 
 module.exports = app;
+
+
+// DEBUG=server:* npm start
