@@ -2,6 +2,9 @@ const express = require('express');
 const router = express.Router();
 
 const getDataOnIdentificationCodeSet = require("../middlewares/data/getDataOnІdentificationCodeSet");
+const downloadResourceFile = require("../middlewares/data/downloadResourceFile");
+const readXlSXFiles = require("../middlewares/data/readXlSXFiles");
+
 
 const {
     API: {
@@ -21,10 +24,15 @@ const {
 
 router.get(`${CREATE}${DATA_ON_DEPUTIES}`,
     (req, res, next) => {
-        req.identificationCodeSet = RESOURCE_ID.get(DataOnDeputies);
+        req.body = {
+            identificationCodeSet: RESOURCE_ID.get(DataOnDeputies),
+            resourceName: DataOnDeputies,
+        };
         next();
     },
-    getDataOnIdentificationCodeSet
+    getDataOnIdentificationCodeSet,
+    downloadResourceFile,
+    readXlSXFiles
 );
 
 
