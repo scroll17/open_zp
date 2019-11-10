@@ -10,11 +10,12 @@ module.exports = async (req, res, next) => {
     const { typeParseLinks, linksToParse } = req.body;
 
     const testParser = [
-        "https://zp.gov.ua/uk/persons/item/41"
+        "https://zp.gov.ua/uk/persons/item/41",
+        "https://zp.gov.ua/uk/persons/item/56",
+        "https://zp.gov.ua/uk/persons/item/65"
     ];
 
     // https://zp.gov.ua/uk/persons/item/41
-
 
     let collatedResources;
 
@@ -28,7 +29,7 @@ module.exports = async (req, res, next) => {
     }
 
 
-    req.body.collatedResources = collatedResources;
+    //req.body.collatedResources = collatedResources;
 
     res.send(collatedResources)
 
