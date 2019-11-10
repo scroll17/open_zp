@@ -36,3 +36,7 @@ module.exports = async (req, res, next) => {
     }
 
 };
+
+
+// +
+//  req.body.resources ---> массив обьектов с информаией про полученый файл от API ( utl, имя, формат, дата создания, ... )

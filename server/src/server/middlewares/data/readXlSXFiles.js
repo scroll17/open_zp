@@ -20,23 +20,23 @@ module.exports = async (req, res, next) => {
     try{
 
         const DBData = {
-            tableHeaders: new Map(),
+            tableHeaders: [],
             toDBInsert: [],
         };
 
         req.body.DBData = DBData;
         req.body.linksToParse = [];
 
-        files.forEach( file => {
+        await Promise.all(files.map( async file => {
 
             const filePath = path.join(folderPath, file);
 
-            const [workSheet] = xlsx.parse(filePath);
-            const dataFromFile = omitBy(workSheet.data, isEmpty);
+            const [workSheet] = await xlsx.parse(filePath);
+            const dataFromFile = await omitBy(workSheet.data, isEmpty);
 
 
-            if (!DBData.tableHeaders.has("tableHeaders")) {
-                DBData.tableHeaders.set("tableHeaders", dataFromFile['1']);
+            if (isEmpty(DBData.tableHeaders)) {
+                DBData.tableHeaders.push(...dataFromFile['1']);
             }
             delete dataFromFile['1'];
 
@@ -60,8 +60,9 @@ module.exports = async (req, res, next) => {
 
                 DBData.toDBInsert.push(data);
             });
-        });
 
+            return Promise.resolve();
+        }));
 
         res.send(req.body)
 
@@ -70,3 +71,11 @@ module.exports = async (req, res, next) => {
     }
 
 };
+
+// +
+//  req.body
+//      DBData
+//          tableHeaders    ---> заголовки прочитаной таблицы
+//          toDBInsert      ---> массив обьектов для сохранения в БД
+//
+//      linksToParse        ---> массив ссылок, из которых нужно распарсить страницу и получить данные

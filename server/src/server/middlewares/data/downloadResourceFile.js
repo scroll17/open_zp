@@ -19,16 +19,16 @@ module.exports = async (req, res, next) => {
 
     try{
 
-        await fs.promises.mkdir(folderPath); // create folder
+        //await fs.promises.mkdir(folderPath); // create folder
 
         await Promise.all(resources.map(  file => {
 
             const fileName = translit(`${file.name}.${file.qa.format}`, 'slug');
             const filePath = path.join(folderPath, fileName);
 
-            req.body.fsData.files.push(fileName);
+            return req.body.fsData.files.push(fileName);
 
-            return downloadFile(file.url, filePath)
+            //return downloadFile(file.url, filePath)
         }));
 
         next()
@@ -38,3 +38,8 @@ module.exports = async (req, res, next) => {
     }
 
 };
+
+// +
+//  req.body.fsData
+//      folderPath  ---> путь папки с сохранёными файлами
+//      files       ---> массив имён сохранёных файлов

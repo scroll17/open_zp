@@ -8,7 +8,7 @@ const {
 
     FIELDS_IN_DB,
 
-    TYPES_PARSE,
+    TYPE_PARSE,
     TYPE_PARSE_RESOURCE,
 } = require("./data");
 
@@ -29,6 +29,6 @@ module.exports = {
 
     API,
 
-    TYPES_PARSE,
+    TYPE_PARSE,
     TYPE_PARSE_RESOURCE
 };

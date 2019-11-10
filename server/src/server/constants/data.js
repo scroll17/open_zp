@@ -4,17 +4,17 @@ const RESOURCE_INFORMATION = "https://data.gov.ua/api/3/action/resource_show?id=
 
 
 const RESOURCE_NAME = {
-    dataOnDeputies: "Дані про депутатів",
+    dataStanOfDeputies: "Дані про депутатів",
 };
 
 const RESOURCE_ID = new Map([
-    [RESOURCE_NAME.dataOnDeputies, "1ed75809-cad4-44f6-ab37-3e6c7475eb5a"]
+    [RESOURCE_NAME.dataStanOfDeputies, "1ed75809-cad4-44f6-ab37-3e6c7475eb5a"]
 ]);
 
 
 const FIELDS_IN_DB = new Map([
     [
-        RESOURCE_NAME.dataOnDeputies,
+        RESOURCE_NAME.dataStanOfDeputies,
         {
             1: 'pip',
             2: 'description',
@@ -27,12 +27,12 @@ const FIELDS_IN_DB = new Map([
 ]);
 
 
-const TYPES_PARSE = {
-    parseDeputies: 'parseDeputies'
+const TYPE_PARSE = {
+    parseStanOfDeputies: "parseStanOfDeputies",
 };
 
 const TYPE_PARSE_RESOURCE = new Map([
-    [RESOURCE_NAME.dataOnDeputies, TYPES_PARSE.parseDeputies]
+    [RESOURCE_NAME.dataStanOfDeputies, TYPE_PARSE.parseStanOfDeputies]
 ]);
 
 
@@ -45,6 +45,6 @@ module.exports = {
 
     FIELDS_IN_DB,
 
-    TYPES_PARSE,
+    TYPE_PARSE,
     TYPE_PARSE_RESOURCE,
 };
