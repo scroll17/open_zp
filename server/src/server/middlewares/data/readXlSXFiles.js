@@ -1,7 +1,9 @@
 const path = require("path");
 
-const Excel = require('exceljs');
-const wb = new Excel.Workbook();
+const xlsx = require("node-xlsx");
+const translit = require('translit-rus-eng');
+
+const { omitBy, isEmpty, cloneDeep, isUndefined } = require("lodash");
 
 module.exports = async (req, res, next) => {
 
@@ -9,21 +11,59 @@ module.exports = async (req, res, next) => {
         fsData: {
             folderPath,
             files
-        }
+        },
+        fieldsInDB,
+        //typeParseLinks TODO
     } = req.body;
 
 
     try{
 
-        const filePath = path.join(folderPath, files[0]).replace(".xlsx", "");
+        const DBData = {
+            tableHeaders: new Map(),
+            toDBInsert: [],
+        };
+
+        req.body.DBData = DBData;
+        req.body.linksToParse = [];
+
+        files.forEach( file => {
+
+            const filePath = path.join(folderPath, file);
+
+            const [workSheet] = xlsx.parse(filePath);
+            const dataFromFile = omitBy(workSheet.data, isEmpty);
 
 
-        const wb = await wb.xlsx.readFile(filePath);
+            if (!DBData.tableHeaders.has("tableHeaders")) {
+                DBData.tableHeaders.set("tableHeaders", dataFromFile['1']);
+            }
+            delete dataFromFile['1'];
 
-        //const sh = wb.getWorksheet("Sheet1");
 
-        res.send(wb)
+            Object.keys(dataFromFile).forEach(key => {
+                const dataField = dataFromFile[key];
 
+                const data = {};
+                dataField.forEach((value, index) => {
+                    const dbField = fieldsInDB[index];
+
+                    if (dbField === 'link') {
+
+                        req.body.linksToParse.push(value);
+
+                    } else if (!isUndefined(dbField)) {
+
+                        data[dbField] = value
+                    }
+                });
+
+                DBData.toDBInsert.push(data);
+            });
+        });
+
+
+        res.send(req.body)
 
     }catch (e) {
         next(e)

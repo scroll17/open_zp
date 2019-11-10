@@ -16,23 +16,31 @@ const {
         }
     },
     RESOURCE_NAME:{
-        DataOnDeputies
+        dataOnDeputies
     },
-    RESOURCE_ID
+    FIELDS_IN_DB,
+    RESOURCE_ID,
+    TYPE_PARSE_RESOURCE
 } = require("../constants");
 
+
+const defaultMiddlewareForCreate = [
+    getDataOnIdentificationCodeSet,
+    downloadResourceFile,
+    readXlSXFiles
+];
 
 router.get(`${CREATE}${DATA_ON_DEPUTIES}`,
     (req, res, next) => {
         req.body = {
-            identificationCodeSet: RESOURCE_ID.get(DataOnDeputies),
-            resourceName: DataOnDeputies,
+            identificationCodeSet: RESOURCE_ID.get(dataOnDeputies),
+            resourceName: dataOnDeputies,
+            fieldsInDB: FIELDS_IN_DB.get(dataOnDeputies),
+            typeParseLinks: TYPE_PARSE_RESOURCE.get(dataOnDeputies)
         };
         next();
     },
-    getDataOnIdentificationCodeSet,
-    downloadResourceFile,
-    readXlSXFiles
+    defaultMiddlewareForCreate
 );
 
 

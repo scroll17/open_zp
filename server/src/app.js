@@ -21,3 +21,4 @@ module.exports = app;
 
 
 // DEBUG=server:* npm start
+// DEBUG=server:* npm test

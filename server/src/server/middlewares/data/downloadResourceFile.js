@@ -1,8 +1,9 @@
 const fs = require("fs");
 const path = require("path");
 
-const axios = require('axios');
 const translit = require('translit-rus-eng');
+
+const downloadFile = require("../../utils/downloadFile");
 
 module.exports = async (req, res, next) => {
 
@@ -18,26 +19,18 @@ module.exports = async (req, res, next) => {
 
     try{
 
-        //await fs.promises.mkdir(folderPath); // create folder
+        await fs.promises.mkdir(folderPath); // create folder
 
-        const files = resources.map( async file => {
+        await Promise.all(resources.map(  file => {
 
             const fileName = translit(`${file.name}.${file.qa.format}`, 'slug');
             const filePath = path.join(folderPath, fileName);
 
-            return req.body.fsData.files.push(fileName); // TODO
+            req.body.fsData.files.push(fileName);
 
-            // const { data } = await axios({
-            //     method: 'get',
-            //     url: file.url,
-            //     responseType: 'stream'
-            // });
-            //
-            // return await data.pipe(fs.createWriteStream(filePath));
-        });
+            return downloadFile(file.url, filePath)
+        }));
 
-
-        await Promise.all(files);
         next()
 
     }catch (e) {
