@@ -19,16 +19,18 @@ module.exports = async (req, res, next) => {
 
     try{
 
-        //await fs.promises.mkdir(folderPath); // create folder
+        await fs.mkdirSync(folderPath); // create folder
+        // fs.promises.mkdir TODO
+
 
         await Promise.all(resources.map(  file => {
 
             const fileName = translit(`${file.name}.${file.qa.format}`, 'slug');
             const filePath = path.join(folderPath, fileName);
 
-            return req.body.fsData.files.push(fileName);
+            req.body.fsData.files.push(fileName);
 
-            //return downloadFile(file.url, filePath)
+            return downloadFile(file.url, filePath)
         }));
 
         next()

@@ -12,6 +12,19 @@ const RESOURCE_ID = new Map([
 ]);
 
 
+const TYPE_PARSE = {
+    parseDataOfDeputies: "parseDataOfDeputies",
+};
+
+const TYPE_PARSE_RESOURCE = new Map([
+    [RESOURCE_NAME.dataStanOfDeputies, TYPE_PARSE.parseDataOfDeputies]
+]);
+
+const DESIRED_FIELDS = {
+    [TYPE_PARSE.parseDataOfDeputies]: ["громадянство", 'освіта', 'сімейний стан']
+};
+
+
 const FIELDS_IN_DB = new Map([
     [
         RESOURCE_NAME.dataStanOfDeputies,
@@ -23,16 +36,19 @@ const FIELDS_IN_DB = new Map([
             5: 'commission',
             6: 'link'
         }
-    ]
-]);
-
-
-const TYPE_PARSE = {
-    parseStanOfDeputies: "parseStanOfDeputies",
-};
-
-const TYPE_PARSE_RESOURCE = new Map([
-    [RESOURCE_NAME.dataStanOfDeputies, TYPE_PARSE.parseStanOfDeputies]
+    ],
+    [
+        TYPE_PARSE.parseDataOfDeputies,
+        {
+            0: "fio",
+            "info": "info",
+            "img": "photo",
+            "link": "link",
+            "громадянство": "citizenship",
+            "освіта": "education",
+            "сімейний стан": "maritalStatus"
+        }
+    ],
 ]);
 
 
@@ -47,4 +63,6 @@ module.exports = {
 
     TYPE_PARSE,
     TYPE_PARSE_RESOURCE,
+
+    DESIRED_FIELDS,
 };

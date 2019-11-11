@@ -10,6 +10,8 @@ const {
 
     TYPE_PARSE,
     TYPE_PARSE_RESOURCE,
+
+    DESIRED_FIELDS
 } = require("./data");
 
 const { API } = require("./api");
@@ -30,5 +32,7 @@ module.exports = {
     API,
 
     TYPE_PARSE,
-    TYPE_PARSE_RESOURCE
+    TYPE_PARSE_RESOURCE,
+
+    DESIRED_FIELDS
 };

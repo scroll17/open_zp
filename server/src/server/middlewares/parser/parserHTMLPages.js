@@ -1,5 +1,5 @@
 
-const parseStanOfDeputies = require("./parsers/parseStanOfDeputies");
+const parseDataOfDeputies = require("./parsers/parseDataOfDeputies");
 
 const {
     TYPE_PARSE
@@ -11,27 +11,33 @@ module.exports = async (req, res, next) => {
 
     const testParser = [
         "https://zp.gov.ua/uk/persons/item/41",
-        "https://zp.gov.ua/uk/persons/item/56",
-        "https://zp.gov.ua/uk/persons/item/65"
+        "https://zp.gov.ua/uk/persons/item/65",
     ];
 
-    // https://zp.gov.ua/uk/persons/item/41
 
-    let collatedResources;
+    try{
 
-    switch (typeParseLinks) {
-        case TYPE_PARSE.parseStanOfDeputies: {
-            collatedResources = await parseStanOfDeputies(testParser);
-            break;
+        let collatedResources;
+
+        switch (typeParseLinks) {
+            case TYPE_PARSE.parseDataOfDeputies: {
+                collatedResources = await parseDataOfDeputies(testParser, typeParseLinks);
+                break;
+            }
+            default:
+                break;
         }
-        default:
-            break;
+
+
+        req.body.collatedResources = collatedResources;
+
+        res.send(collatedResources)
+
+    }catch (e) {
+
+        next(e);
+
     }
-
-
-    //req.body.collatedResources = collatedResources;
-
-    res.send(collatedResources)
 
     //next()
 
