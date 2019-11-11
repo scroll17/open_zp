@@ -40,8 +40,8 @@ router.get(`${CREATE}${DATA_ON_DEPUTIES}`,
         };
         next();
     },
-    defaultMiddlewareForCreate,
-    //parserHTMLPages
+    //defaultMiddlewareForCreate,
+    parserHTMLPages
 );
 
 

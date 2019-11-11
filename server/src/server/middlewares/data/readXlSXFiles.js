@@ -64,7 +64,9 @@ module.exports = async (req, res, next) => {
             return Promise.resolve();
         }));
 
-        res.send(req.body)
+        //res.send(req.body)
+
+        next()
 
     }catch (e) {
         next(e)

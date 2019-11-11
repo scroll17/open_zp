@@ -1,4 +1,6 @@
 
+const allSettled = require('promise.allsettled');
+
 const cheerio = require("cheerio");
 const axios = require("axios");
 
@@ -13,7 +15,7 @@ const {
 
 module.exports = async (arrayLinks, typeParseLinks) => {
 
-    const filedInDB = FIELDS_IN_DB.get(typeParseLinks);
+    const filedInDB = FIELDS_IN_DB.get("parseDataOfDeputies"); // TODO
 
 
     const clearValue = (value) => value.replace(":", "").trim().toLowerCase(); // удаляет лищние пробелы -> удаляет символ ":" -> приводит в нижний регистр
@@ -36,6 +38,7 @@ module.exports = async (arrayLinks, typeParseLinks) => {
 
                 const children = $(elem).children("strong"); // проверяем колличесвто <strong> внутри <p>
 
+
                 if(children.length > 1){ // в некоторых случаях основные данные храняться в теге <p> а не <div>
 
                     const allText = $(elem).text().replace(/\s+/g, " "); // удаляем лишние пробелы
@@ -51,11 +54,19 @@ module.exports = async (arrayLinks, typeParseLinks) => {
                         });
                     });
 
+                    if(indexOfTheData.length < 4){  // добавляем в массив недостающий обьект
+
+                        indexOfTheData.push({
+                            text: "",
+                            index: allText.length
+                        });
+                        // обьект указует на индекс конца строки
+                        // нужно для правильного парсинга исключительных страниц
+                    }
 
                     indexOfTheData.forEach( (data, index) => {
 
-                        const nextValue = indexOfTheData[index + 1];  // получаем обьект с индексом следующего "заголовка"
-
+                        let nextValue = indexOfTheData[index + 1]; // получаем обьект с индексом следующего "заголовка"
 
                         if(index === 0){ // с первого елемента сохраняем и текст и "заголовок"
 
@@ -141,6 +152,8 @@ module.exports = async (arrayLinks, typeParseLinks) => {
                 }
             });
 
+            console.log("deputy", deputy)
+
             return deputy
 
         }else{
@@ -154,6 +167,6 @@ module.exports = async (arrayLinks, typeParseLinks) => {
 
     };
 
-    return await Promise.all(arrayLinks.map( link => parser(link) ))
+    return await allSettled(arrayLinks.map( link => parser(link) )) // Promise.allSettled TODO
 
 };
