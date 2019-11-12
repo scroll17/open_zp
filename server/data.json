@@ -41,370 +41,296 @@
   },
   "collatedResources": [
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/rjWYDp2uPWAsHdWbw218.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/41",
-        "fio": "адаманов олег федорович",
-        "info": "народився 18 червня 1970 року в місті Маріуполь.",
-        "citizenship": "Україна",
-        "education": "вища",
-        "maritalStatus": "Одружений Виховує двох доньок"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/rjWYDp2uPWAsHdWbw218.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/41",
+      "fio": "адаманов олег федорович",
+      "info": "народився 18 червня 1970 року в місті Маріуполь.",
+      "citizenship": "Україна",
+      "education": "вища",
+      "maritalStatus": "Одружений Виховує двох доньок"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/E6rtu8rbEbwZmngaWmTZ.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/56",
-        "fio": "Афанасьєв Олег Володимирович",
-        "info": "народився в місті Запоріжжя 18 липня 1977 року.",
-        "citizenship": "Україна",
-        "maritalStatus": "одружений Виховує двох синів"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/JxVmGb7M8Zfg3jXagyP6.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/65",
+      "fio": "Балашов Сергій Михайлович",
+      "info": "народився 28 липня 1966 року у м. Запоріжжя.",
+      "citizenship": "Україна",
+      "education": "вища",
+      "maritalStatus": "одружений Має доньку та онука"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/JxVmGb7M8Zfg3jXagyP6.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/65",
-        "fio": "Балашов Сергій Михайлович",
-        "info": "народився 28 липня 1966 року у м. Запоріжжя.",
-        "citizenship": "Україна",
-        "education": "вища",
-        "maritalStatus": "одружений Має доньку та онука"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/fZS938RJuExnwEbXcAoB.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/66",
+      "fio": "басов олексій юрійович",
+      "info": "народився 30 листопада 1974 року в м. Тростянець Сумської області. С 1976 року постійно проживає в м. Запоріжжі.",
+      "citizenship": "Україна",
+      "education": "вища",
+      "maritalStatus": "одружений, виховує доньку"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/fZS938RJuExnwEbXcAoB.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/66",
-        "fio": "басов олексій юрійович",
-        "info": "народився 30 листопада 1974 року в м. Тростянець Сумської області. С 1976 року постійно проживає в м. Запоріжжі.",
-        "citizenship": "Україна",
-        "education": "вища",
-        "maritalStatus": "одружений, виховує доньку"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/5A98QPTaHUrUrgjzoWMQ.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/73",
+      "fio": "бєлий микола іванович",
+      "info": "народився 2 травня 1981 року в м. Запоріжжі.",
+      "citizenship": "України",
+      "education": "вища",
+      "maritalStatus": "виховує двух дочок"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/5A98QPTaHUrUrgjzoWMQ.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/73",
-        "fio": "бєлий микола іванович",
-        "info": "народився 2 травня 1981 року в м. Запоріжжі.",
-        "citizenship": "України",
-        "education": "вища",
-        "maritalStatus": "виховує двух дочок"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/8ElGVsfgK6Q9HyL8oqxb.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/85",
+      "fio": "володьков микола миколайович",
+      "info": "народився 5 червня 1957 року в місті Запоріжжя.",
+      "citizenship": "громадянин України",
+      "education": "вища",
+      "maritalStatus": "одружений, має двох дітей"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/mjgLSceKz9qozcZ4Yd25.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/75",
-        "fio": "божко руслан анатолійович",
-        "info": "народився 26 серпня 1976 року в місті Горлівка.",
-        "citizenship": "Україна",
-        "education": "вища",
-        "maritalStatus": "одружений Виховує сина та доньку"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/Ua8wbkWznE8VnWDZLSFJ.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/93",
+      "fio": "Гараненко Роман Сергійович",
+      "info": "народився 24 травня 1960 року в місті Цюрупинськ, Херсонської області, Україна.",
+      "citizenship": "громадянин України",
+      "education": "вища 1977–1983 — Харківський авіаційний інститут, двигунобудівний факультет",
+      "maritalStatus": "одружений. Має доньку"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/4ne7g2P9bYBsABy43Tch.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/78",
-        "fio": "Васильєв Денис Анатолійович",
-        "info": "народився 29 червня 1983 року в місті Запоріжжі, Україна.",
-        "education": "вища",
-        "maritalStatus": "одружений"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/4E9sWJGj9BMY6E7WE3Qg.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/95",
+      "fio": "германюк олег борисович",
+      "info": "народився 1 березня 1968 року в м. Коломия Івано-Франківської області в родині службовців. Після народження з 1968 року мешкав з батьками в м. Запоріжжі.",
+      "citizenship": "громадянин України",
+      "education": "вища",
+      "maritalStatus": "одружений, має доньку"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/tkZWUDBdJVpgtr1eNEOd.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/81",
-        "fio": "Васильчук Геннадій Миколайович",
-        "info": "народився в м. Запоріжжі 8 лютого 1966 року.",
-        "citizenship": "громадянин України",
-        "maritalStatus": "одружений Має сина"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/vnBWY7SjCwoPnRCjFRuA.jpeg",
+      "link": "https://zp.gov.ua/uk/persons/item/100",
+      "fio": "гординський віктор георгійович",
+      "info": "2000 р. — слюсар інструментальник ВАТ «Мотор Січ». 2005 р. — майстер контрольний транспортно-виробничого управління ВАТ «Мотор Січ». 2005–2010 рр. — механік автомобільної колони транспортно-виробничого управління ВАТ «Мотор Січ». З 2010 р. і дотепер займає посаду начальника автомобільної колони транспортно-виробничого управління АТ «Мотор Січ», м. Запоріжжя.",
+      "citizenship": "громадянин України",
+      "education": "вища",
+      "maritalStatus": "одружений, виховує доньку"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/U3fxpwXJvsVP1lYnf9xa.JPG",
-        "link": "https://zp.gov.ua/uk/persons/item/83",
-        "fio": "вєдєнєєв олександр євгенович",
-        "info": "народився 26 березня 1978 року в місті Запоріжжя.",
-        "citizenship": "громадянин України",
-        "education": "З 1996 року по 2002 рік навчався у Запорізькому державному медичному університеті за спеціальністю «Лікувальна справа», спеціалізація — «Анестезіологія»"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/ke2xpGrdY8Toa9Cm6UX1.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/101",
+      "fio": "гринь віктор анатолійович",
+      "info": "народився 21 вересня 1969 року в місті Запоріжжя.",
+      "citizenship": "громадянин України",
+      "education": "вища",
+      "maritalStatus": "одружений. Виховує доньку"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/8ElGVsfgK6Q9HyL8oqxb.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/85",
-        "fio": "володьков микола миколайович",
-        "info": "народився 5 червня 1957 року в місті Запоріжжя.",
-        "citizenship": "громадянин України",
-        "education": "вища",
-        "maritalStatus": "одружений, має двох дітей"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/HxYaFzXJHr7LUezO6pfn.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/103",
+      "fio": "губіна оксана олександрівна",
+      "info": "народилася 15 липня 1972 року у м. Запоріжжі.",
+      "citizenship": "громадянка України",
+      "education": "вища",
+      "maritalStatus": "має сина"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/kFXRdeqyBeJjQmkqZPb5.JPG",
-        "link": "https://zp.gov.ua/uk/persons/item/87",
-        "fio": "Воронцов Олександр Васильович",
-        "info": "народився 22 вересня 1961 року в місті Запоріжжя.",
-        "citizenship": "громадянин України",
-        "maritalStatus": "одружений Виховує двох доньок"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/RnjkS1PvyOlxBweZqo4v.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/105",
+      "fio": "Гурська Ніна Миколаївна",
+      "info": "народилася 15 вересня 1962 року в селі Парасковія, Кегичівського району, Харківської області.",
+      "education": "вища",
+      "maritalStatus": "має сина та доньку"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/TYMuTschaLRLbGrBsQ2g.JPG",
-        "link": "https://zp.gov.ua/uk/persons/item/90",
-        "fio": "галкіна олена георгіївна",
-        "info": "народилася 1 лютого 1983 року в місті Запоріжжя, Україна.",
-        "citizenship": "громадянка України",
-        "education": "вища",
-        "maritalStatus": "заміжня Виховує доньку"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/8b54tnlRrexgCAS4tKf5.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/108",
+      "fio": "зайцев вячеслав олексійович",
+      "info": "народився 6 вересня 1980 року в с. Іванівка Кам'янсько-Дніпровського району Запорізької області в сім’ї робітників.",
+      "citizenship": "громадянин України",
+      "education": "вища",
+      "maritalStatus": "одружений, виховує доньку"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/g5mN7meqZzlumA6mhGqY.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/91",
-        "fio": "гальчинська зінаїда миколаївна",
-        "info": "народилася 30 липня 1946 року. Живе в Україні з 1977 року.",
-        "citizenship": "Україна з 1991 року",
-        "education": "вища технічна",
-        "maritalStatus": "маю сина"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/xumYXEHHB7WyHrdn6pSV.JPG",
+      "link": "https://zp.gov.ua/uk/persons/item/113",
+      "fio": "Клець Ірина Миколаївна",
+      "info": "народилась 22 лютого 1966 року, м. Ананьїв, Ананьївський район, Одеська область.",
+      "citizenship": "громадянка України",
+      "education": "вища",
+      "maritalStatus": "заміжня, має сина та доньку"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/Ua8wbkWznE8VnWDZLSFJ.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/93",
-        "fio": "Гараненко Роман Сергійович",
-        "info": "народився 24 травня 1960 року в місті Цюрупинськ, Херсонської області, Україна.",
-        "citizenship": "громадянин України",
-        "education": "вища 1977–1983 — Харківський авіаційний інститут, двигунобудівний факультет",
-        "maritalStatus": "одружений Має доньку"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/EdOE1nVJbLaPzcnVzwAv.JPG",
+      "link": "https://zp.gov.ua/uk/persons/item/117",
+      "fio": "Коломоєць Олег Олександрович",
+      "info": "Активний учасник «Революції гідності». Співзасновник та член правління Громадської організації «Товариство ветеранів АТО Запоріжжя». З березня 2016 р. обраний Головою Консультативної ради учасників АТО при Запорізькій ОДА.",
+      "education": "вища",
+      "maritalStatus": "одружений, виховує сина"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/4E9sWJGj9BMY6E7WE3Qg.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/95",
-        "fio": "германюк олег борисович",
-        "info": "народився 1 березня 1968 року в м. Коломия Івано-Франківської області в родині службовців. Після народження з 1968 року мешкав з батьками в м. Запоріжжі.",
-        "citizenship": "громадянин України",
-        "education": "вища",
-        "maritalStatus": "одружений, має доньку"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/o_1bkokvnmft5a1am4r791ege1cip2c.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/127",
+      "fio": "константинов олександр олександрович",
+      "info": "народився 19 січня 1976 року в м. Бердянськ, Запорізька область.",
+      "citizenship": "громадянин України",
+      "education": "вища",
+      "maritalStatus": "одружений, виховує доньку та сина"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/WAVyf2F9FhpkwLpwVEdD.JPG",
-        "link": "https://zp.gov.ua/uk/persons/item/97",
-        "fio": "Гончар Олександр Васильович",
-        "info": "народився 25 лютого 1968 року у місті Запоріжжя.",
-        "citizenship": "Громадянин України",
-        "maritalStatus": "одружений Виховує доньку"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/o_1bkolc4prkl51vtjjdd10661cjf2r.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/128",
+      "fio": "константинова катерина андріївна",
+      "info": "народилась 14.06.1989 року в м. Запоріжжя.",
+      "citizenship": "громадянка України",
+      "education": "вища"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/vnBWY7SjCwoPnRCjFRuA.jpeg",
-        "link": "https://zp.gov.ua/uk/persons/item/100",
-        "fio": "гординський віктор георгійович",
-        "info": "2000 р. — слюсар інструментальник ВАТ «Мотор Січ». 2005 р. — майстер контрольний транспортно-виробничого управління ВАТ «Мотор Січ». 2005–2010 рр. — механік автомобільної колони транспортно-виробничого управління ВАТ «Мотор Січ». З 2010 р. і дотепер займає посаду начальника автомобільної колони транспортно-виробничого управління АТ «Мотор Січ», м. Запоріжжя.",
-        "citizenship": "громадянин України",
-        "education": "вища",
-        "undefined": "Трудова діяльність:",
-        "maritalStatus": "одружений, виховує доньку"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/o_1bkollue8gko1gb6omla6g1k0945.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/131",
+      "fio": "Корольов Олег Миколайович",
+      "info": "народився 21.10.1974 р. у м. Запоріжжя.",
+      "citizenship": "громадянин України",
+      "maritalStatus": "одружений, має сина"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/ke2xpGrdY8Toa9Cm6UX1.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/101",
-        "fio": "гринь віктор анатолійович",
-        "info": "народився 21 вересня 1969 року в місті Запоріжжя.",
-        "citizenship": "громадянин України",
-        "education": "вища",
-        "maritalStatus": "одружений Виховує доньку"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/8UfJE8CBFLPc8zMaH9mo.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/80",
+      "fio": "Лоцман Сергій Леонідович",
+      "info": "2000–2003 — майстер, старший майстер складального цеху ВАТ «Мотор Січ». 2003–2006 — начальник виробничо-диспетчерського бюро складального цеху ПАТ «Мотор Січ». 2006–2008 — провідний інженер виробничого управління ПАТ «Мотор Січ». 2008–2015 — начальник бюро виробничого управління ПАТ «Мотор Січ». З січня 2015 — заступник голови первинної профспілкової організації Профспілки авіабудівників України у ПАТ «Мотор Січ».",
+      "citizenship": "громадянин України"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/HxYaFzXJHr7LUezO6pfn.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/103",
-        "fio": "губіна оксана олександрівна",
-        "info": "народилася 15 липня 1972 року у м. Запоріжжі.",
-        "citizenship": "громадянка України",
-        "education": "вища",
-        "maritalStatus": "має сина"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/mwpm5Zwa4EW2SaG3tga4.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/82",
+      "fio": "Лученко Андрій Іванович",
+      "info": "Свою діяльність почав з роботи на підприємстві ВАТ «Металургійний комбінат «Азовсталь». З 1996 по 1998 рік — працював слюсарем-монтажником в Управлінні залізно-дорожнього транспорту заводу ВАТ «Металургійний комбінат «Азовсталь»; з 1998 по 2003 рік — правильником прокату i труб товстолистового цеху ВАТ «Металургійний комбінат «Азовсталь»; з 2003 по 2012 — провідий інженер, начальник бюро, начальник вiддiлу мотивацiї прокатного виробництва управлiння мотивацiї персоналу ПАТ «Азовсталь»; з 01.03.2010 року по 2011 рік — начальник управлiння мотивацiї персоналу ПАТ «Азовсталь»; з 2011 року по 2012 рік — заступник директора по персоналу ПАТ «Азовсталь»; з 2012 року по теперішній час директор по персоналу ВАТ «Запоріжсталь». Пройшов поступовий трудовий шлях від робочого до директора по персоналу ВАТ «Запоріжсталь».",
+      "citizenship": "громадянин України"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/RnjkS1PvyOlxBweZqo4v.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/105",
-        "fio": "громадянство",
-        "info": "громадянка України.",
-        "education": "вища",
-        "maritalStatus": "має сина та доньку"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/vntgYS51veEzrRRbDC7c.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/86",
+      "fio": "Маляренко Андрій Євгенович",
+      "info": "народився 9 грудня 1970 року в м. Запоріжжя, Запорізька область.",
+      "citizenship": "громадянин України",
+      "education": "вища",
+      "maritalStatus": "одружений, має сина та двох доньок"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/o_1cjlgqc2bvjn1e0s1gekjd1h55a.JPG",
-        "link": "https://zp.gov.ua/uk/persons/item/106",
-        "fio": "дорошенко юрій леонідович",
-        "info": "народився 12 червня 1978 року в місті Вільнянськ, Запорізької області.",
-        "citizenship": "громадянин України",
-        "education": "вища",
-        "maritalStatus": "одружений Виховує доньку"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/TbVcezdA32DGCZdkyZ8M.JPG",
+      "link": "https://zp.gov.ua/uk/persons/item/88",
+      "fio": "Михайлик Павло Андрійович",
+      "info": "народився 02 вересня 1946 року в селі Новокиївка Томаківського району Дніпропетровської області.",
+      "citizenship": "громадянин України",
+      "education": "З 1968 до 1974 навчався у Запорізькому машинобудівному інституті на електротехнічному факультеті за спеціальністю «інженер-електрик»",
+      "maritalStatus": "одружений, має двох синів"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/8b54tnlRrexgCAS4tKf5.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/108",
-        "fio": "зайцев вячеслав олексійович",
-        "info": "народився 6 вересня 1980 року в с. Іванівка Кам'янсько-Дніпровського району Запорізької області в сім’ї робітників.",
-        "citizenship": "громадянин України, постійно проживає на території України протягом останніх п’яти років",
-        "education": "вища",
-        "maritalStatus": "одружений, виховує доньку"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/9sxHeqwlwpZSN23LRyZY.JPG",
+      "link": "https://zp.gov.ua/uk/persons/item/98",
+      "fio": "Наумов Геннадій Борисович",
+      "info": "народився 10.09.1982 р. у м. Запоріжжя."
     },
     {
-      "status": "rejected",
-      "reason": {
-        "message": "Request failed with status code 404",
-        "name": "Error",
-        "stack": "Error: Request failed with status code 404\n    at createError (/home/denis/Code Fresh/open_zp/server/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/denis/Code Fresh/open_zp/server/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/denis/Code Fresh/open_zp/server/node_modules/axios/lib/adapters/http.js:237:11)\n    at IncomingMessage.emit (events.js:203:15)\n    at endReadableNT (_stream_readable.js:1145:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)",
-        "config": {
-          "url": "https://zp.gov.ua/uk/persons/item/111",
-          "method": "get",
-          "headers": {
-            "Accept": "application/json, text/plain, */*",
-            "User-Agent": "axios/0.19.0"
-          },
-          "transformRequest": [
-            null
-          ],
-          "transformResponse": [
-            null
-          ],
-          "timeout": 0,
-          "xsrfCookieName": "XSRF-TOKEN",
-          "xsrfHeaderName": "X-XSRF-TOKEN",
-          "maxContentLength": -1
-        }
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/UxApjjjSXTNK3gQTCBwE.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/99",
+      "fio": "Ніколаєнко Олександр Олександрович",
+      "info": "З 04.2002 р. по 03.2004 р. — електромонтер з ремонту та обслуговування електроустаткування ділянки мереж та підстанцій об'єднаного електро-енергетичного цеху ВАТ «Запоріжвогнетрив». З 02.2005 р. — начальник зміни ділянки мереж і підстанцій об'єднаного електро-енергетичного цеху. З 01.2011 р. — заступник головного енергетика заводоуправління відділу головного енергетика ВАТ «Запоріжвогнетрив». З 15.11.2011 р. — головний енергетик відділу заводоуправління ПАТ «Запоріжвогнетрив». З 2017 р. по теперішній час - генеральний директор КП \"Наше місто\".",
+      "citizenship": "Україна",
+      "maritalStatus": "Одружений. Виховує двох синів"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/xumYXEHHB7WyHrdn6pSV.JPG",
-        "link": "https://zp.gov.ua/uk/persons/item/113",
-        "fio": "Клець Ірина Миколаївна",
-        "info": "народилась 22 лютого 1966 року, м. Ананьїв, Ананьївський район, Одеська область.",
-        "citizenship": "громадянка України",
-        "education": "вища",
-        "maritalStatus": "заміжня, має сина та доньку"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/u3DAa5vuzjX7dhbYEO4o.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/107",
+      "fio": "Поварчук Анатолій Володимирович ",
+      "info": "народився 14 грудня 1951 року в місті Запоріжжя.",
+      "citizenship": "Україна",
+      "education": "вища",
+      "maritalStatus": "Одружений Є син"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/wpT12yxuJFwXgPYnTHa8.JPG",
-        "link": "https://zp.gov.ua/uk/persons/item/115",
-        "fio": "кобзарюк олександр олександрович",
-        "info": "2010 – 2014 рр. — депутат Степнянської сільської ради.",
-        "citizenship": "громадянин України",
-        "education": "вища",
-        "undefined": "Громадська робота: "
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/qZ7vld3n9nD1bLuPnAA4.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/110",
+      "fio": "Поливяний Сергій Олександрович",
+      "info": "народився 6 липня 1983 року у місті Запоріжжя.",
+      "citizenship": "Україна",
+      "education": "вища",
+      "maritalStatus": "не одружений"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/EdOE1nVJbLaPzcnVzwAv.JPG",
-        "link": "https://zp.gov.ua/uk/persons/item/117",
-        "fio": "Коломоєць Олег Олександрович",
-        "info": "Активний учасник «Революції гідності». Співзасновник та член правління Громадської організації «Товариство ветеранів АТО Запоріжжя». З березня 2016 р. обраний Головою Консультативної ради учасників АТО при Запорізькій ОДА.",
-        "education": "вища",
-        "undefined": "Громадська діяльність:",
-        "maritalStatus": "одружений, виховує сина"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/genYbwJjbKbrsnQG27Xh.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/114",
+      "fio": "полухін володимир федорович",
+      "info": "народився 22 січня 1951 року у м. Запоріжжі. ",
+      "citizenship": "Україна",
+      "education": "вища",
+      "maritalStatus": "Одружений. Має доньку, яка проживає зі своєю сім’єю окремо"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/o_1bkokvnmft5a1am4r791ege1cip2c.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/127",
-        "fio": "константинов олександр олександрович",
-        "info": "народився 19 січня 1976 року в м. Бердянськ, Запорізька область.",
-        "citizenship": "громадянин України",
-        "education": "вища",
-        "maritalStatus": "одружений, виховує доньку та сина"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/ONakAStmEkFEUVqaROME.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/116",
+      "fio": "Полюсов Василь Вячеславович",
+      "info": "народився 21 травня 1971 року у м. Запоріжжі.",
+      "education": "вища",
+      "citizenship": "Україна"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/o_1bkolc4prkl51vtjjdd10661cjf2r.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/128",
-        "fio": "константинова катерина андріївна",
-        "info": "народилась 14.06.1989 року в м. Запоріжжя.",
-        "citizenship": "громадянка України",
-        "education": "вища"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/o_1bkohfp9ibkt1b5h1mc9tu71hhcln.JPG",
+      "link": "https://zp.gov.ua/uk/persons/item/118",
+      "fio": "Прасол Михайло Вікторович",
+      "info": "народився 10 серпня 1986 року у місті Запоріжжя.",
+      "citizenship": "Україна"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/o_1bkollue8gko1gb6omla6g1k0945.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/131",
-        "fio": "Корольов Олег Миколайович",
-        "info": "народився 21.10.1974 р. у м. Запоріжжя.",
-        "citizenship": "громадянин України",
-        "maritalStatus": "одружений, має сина"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/o_1bkoidgm21l51ce3c4t1akc3fbrg.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/122",
+      "fio": "рябцев віталій володимирович",
+      "info": "народився 04 листопада 1975 року в селі Чубарівка Пологівського району Запорізької області.",
+      "citizenship": "Україна",
+      "maritalStatus": "Одружений Діти: син Рябцев Андрій Віталійович 2003 рн, донька Рябцева Анастасія Віталіївна 2007 рн"
     },
     {
-      "status": "fulfilled",
-      "value": {
-        "photo": "https://zp.gov.ua/upload/peron_image/o_1bko7cccn17p210e61eb41rtmmhba.jpg",
-        "link": "https://zp.gov.ua/uk/persons/item/67",
-        "fio": "костенко ірина борисівна",
-        "info": "народилась 21 вересня 1960 року в Азербайджані у с. Красносільське Саатлінського району.",
-        "citizenship": "громадянка України",
-        "education": "вища",
-        "maritalStatus": "має доньку"
-      }
+      "photo": "https://zp.gov.ua/upload/peron_image/R35LEcQvN5EXehPEuK2A.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/125",
+      "fio": "сірий дмитро вікторович",
+      "citizenship": "Україна",
+      "info": "народився у 1985 році в місті Запоріжжя."
+    },
+    {
+      "photo": "https://zp.gov.ua/upload/peron_image/o_1bkokko5i1c5918bd1c5m1bolbms120.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/126",
+      "fio": "Громадянство:",
+      "info": "Народився 15 березня 1980 року у м. Запоріжжя, Запорізька область.",
+      "education": "Согорін Андрій Анатолійович",
+      "citizenship": "Україна",
+      "maritalStatus": "одружений, виховую сина та доньку"
+    },
+    {
+      "photo": "https://zp.gov.ua/upload/peron_image/o_1bkolal4a1f3l8jc1u3715kvpn12f.JPG",
+      "link": "https://zp.gov.ua/uk/persons/item/129",
+      "fio": "Старцев Генадій Валерійович",
+      "info": "Народився 22 червня 1968 року в м. Запоріжжя в Запорізькій області, Україна.",
+      "citizenship": "Україна",
+      "education": "середня"
+    },
+    {
+      "photo": "https://zp.gov.ua/upload/peron_image/o_1bkom33fk11jlooopq017n1mmc16d.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/134",
+      "fio": "Тищенко Олександр Вікторович",
+      "info": "Народився 4 вересня 1977 року в місті Запоріжжя",
+      "citizenship": "Україна",
+      "maritalStatus": "Одружений. Виховує двох доньок"
+    },
+    {
+      "photo": "https://zp.gov.ua/upload/peron_image/o_1bkoma2e81eb11056lf7bckrfn18b.jpg",
+      "link": "https://zp.gov.ua/uk/persons/item/136",
+      "fio": "Трюхан Дарія Аркадіївна",
+      "info": "Народилася 28 серпня 1980 року у місті Петропавловськ-Камчацький в родині підводника. У 1991 році родина переїхала в Україну у місто Запоріжжя.",
+      "citizenship": "Україна"
+    },
+    {
+      "photo": "https://zp.gov.ua/upload/peron_image/9fC5LQ6GTTGTvnMEvbSX.JPG",
+      "link": "https://zp.gov.ua/uk/persons/item/241",
+      "fio": "Воєводін Ігор Сергійович",
+      "info": "народився 11 березня 1979 року в місті Запоріжжя в сім’ї робітників.",
+      "citizenship": "громадянин України",
+      "education": "вища"
     }
   ],
   "DBData": {
@@ -423,520 +349,518 @@
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 48,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань життєзабезпечення міста, голова комісії "
+        "commission": "З питань життєзабезпечення міста, голова комісії ",
+        "deputyId": "41"
       },
       {
         "pip": "Афанасьєв Олег Володимирович ",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 53,
         "faction": "ВО \"Батьківщина\"",
-        "commission": "З питань регуляторної політики, розвитку підприємництва, торгівлі, послуг та захисту прав споживачів, голова комісії "
+        "commission": "З питань регуляторної політики, розвитку підприємництва, торгівлі, послуг та захисту прав споживачів, голова комісії ",
+        "deputyId": "56"
       },
       {
         "pip": "Балашов Сергій Михайлович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 56,
         "faction": "\"Українське об'єднання патріотів-УКРОП\"",
-        "commission": "З питань соціального та економічного розвитку, бюджету і фінансів"
+        "commission": "З питань соціального та економічного розвитку, бюджету і фінансів",
+        "deputyId": "65"
       },
       {
         "pip": "Басов Олексій Юрійович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 19,
         "faction": "\"Нова політика\", голова фракції ",
-        "commission": "З питань екології, голова комісії"
+        "commission": "З питань екології, голова комісії",
+        "deputyId": "66"
       },
       {
         "pip": "Бєлий Микола Іванович ",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 60,
         "faction": "\"Солідарність\"",
-        "commission": "З питань життєзабезпечення міста"
+        "commission": "З питань життєзабезпечення міста",
+        "deputyId": "73"
       },
       {
         "pip": "Божко Руслан Анатолійович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 50,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань соціального та економічного розвитку, бюджету і фінансів, голова комісії "
+        "commission": "З питань соціального та економічного розвитку, бюджету і фінансів, голова комісії ",
+        "deputyId": "75"
       },
       {
         "pip": "Васильєв Денис Анатолійович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 24,
         "faction": "\"Нова політика\" ",
-        "commission": "З питань екології "
+        "commission": "З питань екології ",
+        "deputyId": "78"
       },
       {
         "pip": "Васильчук Геннадій Миколайович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 16,
         "faction": "\"Солідарність\"",
-        "commission": "З питань комунальної власності, ресурсів, приватизації, архітектури та земельних відносин"
+        "commission": "З питань комунальної власності, ресурсів, приватизації, архітектури та земельних відносин",
+        "deputyId": "81"
       },
       {
         "pip": "Вєдєнєєв Олександр Євгенович ",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 31,
         "faction": "ВО \"Батьківщина\"",
-        "commission": "З питань охорони здоров'я та соціального захисту населення "
+        "commission": "З питань охорони здоров'я та соціального захисту населення ",
+        "deputyId": "83"
       },
       {
         "pip": "Володьков Микола Миколайович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 51,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань депутатської діяльності, регламенту, законності, правопорядку та запобігання корупції "
+        "commission": "З питань депутатської діяльності, регламенту, законності, правопорядку та запобігання корупції ",
+        "deputyId": "85"
       },
       {
         "pip": "Воронцов Олександр Васильович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 36,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань комунальної власності, ресурсів, приватизації, архітектури та земельних відносин"
+        "commission": "З питань комунальної власності, ресурсів, приватизації, архітектури та земельних відносин",
+        "deputyId": "87"
       },
       {
         "pip": "Галкіна Олена Георгіївна",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 38,
         "faction": "Об'єднання \"Самопоміч\"",
-        "commission": "З питань освіти, науки, культури, спорту, молоді та туризму "
+        "commission": "З питань освіти, науки, культури, спорту, молоді та туризму ",
+        "deputyId": "90"
       },
       {
         "pip": "Гальчинська Зінаїда Миколаївна\r\n\r\n",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 37,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань охорони здоров'я та соціального захисту населення "
+        "commission": "З питань охорони здоров'я та соціального захисту населення ",
+        "deputyId": "91"
       },
       {
         "pip": "Гараненко Роман Сергійович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 21,
         "faction": "\"Нова політика\" ",
-        "commission": "З питань освіти, науки, культури, спорту, молоді та туризму "
+        "commission": "З питань освіти, науки, культури, спорту, молоді та туризму ",
+        "deputyId": "93"
       },
       {
         "pip": "Германюк Олег Борисович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 11,
         "faction": "Об'єднання \"Самопоміч\"",
-        "commission": "З питань життєзабезпечення міста "
+        "commission": "З питань життєзабезпечення міста ",
+        "deputyId": "95"
       },
       {
         "pip": "Гончар Олександр Васильович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 52,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань регуляторної політики, розвитку підприємництва, торгівлі, послуг та захисту прав споживачів, секретар комісії "
+        "commission": "З питань регуляторної політики, розвитку підприємництва, торгівлі, послуг та захисту прав споживачів, секретар комісії ",
+        "deputyId": "97"
       },
       {
         "pip": "Гординський Віктор Георгійович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 27,
         "faction": "\"Нова політика\" ",
-        "commission": "З питань комунальної власності, ресурсів, приватизації, архітектури та земельних відносин"
+        "commission": "З питань комунальної власності, ресурсів, приватизації, архітектури та земельних відносин",
+        "deputyId": "100"
       },
       {
         "pip": "Гринь  Віктор Анатолійович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 43,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань життєзабезпечення міста "
+        "commission": "З питань життєзабезпечення міста ",
+        "deputyId": "101"
       },
       {
         "pip": "Губіна  Оксана Олександрівна",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 61,
         "faction": "\"Наш край\" ",
-        "commission": "З питань освіти, науки, культури, спорту, молоді та туризму, секретар комісії  "
+        "commission": "З питань освіти, науки, культури, спорту, молоді та туризму, секретар комісії  ",
+        "deputyId": "103"
       },
       {
         "pip": "Гурська  Ніна Миколаївна",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 16,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань екології "
+        "commission": "З питань екології ",
+        "deputyId": "105"
       },
       {
         "pip": "Дорошенко  Юрій Леонідович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 40,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань комунальної власності, ресурсів, приватизації, архітектури та земельних відносин"
+        "commission": "З питань комунальної власності, ресурсів, приватизації, архітектури та земельних відносин",
+        "deputyId": "106"
       },
       {
         "pip": "Зайцев Вячеслав Олексійович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 55,
         "faction": "позафракційний",
-        "commission": "З питань освіти, науки, культури, спорту, молоді та туризму, голова комісії  "
+        "commission": "З питань освіти, науки, культури, спорту, молоді та туризму, голова комісії  ",
+        "deputyId": "108"
       },
       {
         "pip": "Кальцев Володимир Федорович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 4,
         "faction": "\"Наш край\", голова фракції  ",
-        "commission": "З питань депутатської діяльності, регламенту, законності, правопорядку та запобігання корупції "
+        "commission": "З питань депутатської діяльності, регламенту, законності, правопорядку та запобігання корупції ",
+        "deputyId": "111"
       },
       {
         "pip": "Клець Ірина Миколаївна",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 18,
         "faction": "позафракційна",
-        "commission": "З питань охорони здоров'я та соціального захисту населення "
+        "commission": "З питань охорони здоров'я та соціального захисту населення ",
+        "deputyId": "113"
       },
       {
         "pip": "Кобзарюк Олександр Олександрович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 39,
         "faction": "\"Солідарність\"",
-        "commission": "З питань регуляторної політики, розвитку підприємництва, торгівлі, послуг та захисту прав споживачів, заступник голови комісії "
+        "commission": "З питань регуляторної політики, розвитку підприємництва, торгівлі, послуг та захисту прав споживачів, заступник голови комісії ",
+        "deputyId": "115"
       },
       {
         "pip": "Коломоєць Олег Олександрович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 10,
         "faction": "\"Українське об'єднання патріотів-УКРОП\"",
-        "commission": "З питань комунальної власності, ресурсів, приватизації, архітектури та земельних відносин"
+        "commission": "З питань комунальної власності, ресурсів, приватизації, архітектури та земельних відносин",
+        "deputyId": "117"
       },
       {
         "pip": "Константинов Олександр Олександрович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 12,
         "faction": "\"Солідарність\", голова фракції ",
-        "commission": "З питань соціального та економічного розвитку, бюджету і фінансів"
+        "commission": "З питань соціального та економічного розвитку, бюджету і фінансів",
+        "deputyId": "127"
       },
       {
         "pip": "Константинова Катерина Андріївна",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 64,
         "faction": "позафракційна ",
-        "commission": "З питань регуляторної політики, розвитку підприємництва, торгівлі, послуг та захисту прав споживачів, секретар комісії "
+        "commission": "З питань регуляторної політики, розвитку підприємництва, торгівлі, послуг та захисту прав споживачів, секретар комісії ",
+        "deputyId": "128"
       },
       {
         "pip": "Корольов Олег Миколайович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "faction": "Об'єднання \"Самопоміч\", заступник голови фракції ",
-        "commission": "З питань депутатської діяльності, регламенту, законності, правопорядку та запобігання корупції, заступник голови комісії "
+        "commission": "З питань депутатської діяльності, регламенту, законності, правопорядку та запобігання корупції, заступник голови комісії ",
+        "deputyId": "131"
       },
       {
         "pip": "Костенко Ірина Борисівна",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 58,
         "faction": "ВО \"Батьківщина\", голова фракції ",
-        "commission": "З питань освіти, науки, культури, спорту, молоді та туризму"
+        "commission": "З питань освіти, науки, культури, спорту, молоді та туризму",
+        "deputyId": "67"
       },
       {
         "pip": "Кривцов Андрій Іванович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 32,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань соціального та економічного розвитку, бюджету і фінансів "
+        "commission": "З питань соціального та економічного розвитку, бюджету і фінансів ",
+        "deputyId": "71"
       },
       {
         "pip": "Кругла Людмила Юхимівна",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 35,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань освіти, науки, культури, спорту, молоді та туризму, заступник голови комісії "
+        "commission": "З питань освіти, науки, культури, спорту, молоді та туризму, заступник голови комісії ",
+        "deputyId": "77"
       },
       {
         "pip": "Лоцман Сергій Леонідович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 20,
         "faction": "\"Нова політика\" ",
-        "commission": "З питань охорони здоров'я та соціального захисту населення "
+        "commission": "З питань охорони здоров'я та соціального захисту населення ",
+        "deputyId": "80"
       },
       {
         "pip": "Лученко Андрій Іванович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 46,
         "faction": "\"Опозиційний блок\", голова фракції ",
-        "commission": "З питань екології"
+        "commission": "З питань екології",
+        "deputyId": "82"
       },
       {
         "pip": "Максимов Володимир Степанович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 56,
         "faction": "ВО \"Батьківшина\", заступник голови фракції ",
-        "commission": "З питань соціального та економічного розвитку, бюджету і фінансів"
+        "commission": "З питань соціального та економічного розвитку, бюджету і фінансів",
+        "deputyId": "84"
       },
       {
         "pip": "Маляренко Андрій Євгенович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 37,
         "faction": "Об'єднання \"Самопоміч\"",
-        "commission": "З питань охорони здоров'я та соціального захисту населення, голова комісії "
+        "commission": "З питань охорони здоров'я та соціального захисту населення, голова комісії ",
+        "deputyId": "86"
       },
       {
         "pip": "Михайлик Павло Андрійович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 31,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань соціального та економічногорозвитку, бюджету і фінансів "
+        "commission": "З питань соціального та економічногорозвитку, бюджету і фінансів ",
+        "deputyId": "88"
       },
       {
         "pip": "Молчанов Михайло Миколайович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 28,
         "faction": "\"Нова політика\" ",
-        "commission": "З питань життєзабезпечення міста, заступник голови комісії"
+        "commission": "З питань життєзабезпечення міста, заступник голови комісії",
+        "deputyId": "89"
       },
       {
         "pip": "Москаленко Володимир Анатолійович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "faction": "ВО \"Батьківщина\"",
-        "commission": "З питань депутатської діяльності, регламенту, законності, правопорядку та запобігання корупції "
+        "commission": "З питань депутатської діяльності, регламенту, законності, правопорядку та запобігання корупції ",
+        "deputyId": "92"
       },
       {
         "pip": "Мотренко Олександр Володимирович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 64,
         "faction": "\"Наш край\" ",
-        "commission": "З питань життєзабезпечення міста, секретар комісії "
+        "commission": "З питань життєзабезпечення міста, секретар комісії ",
+        "deputyId": "94"
       },
       {
         "pip": "Нагіх Костянтин Валерійович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 45,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань життєзабезпечення міста"
+        "commission": "З питань життєзабезпечення міста",
+        "deputyId": "96"
       },
       {
         "pip": "Наумов Геннадій Борисович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 17,
         "faction": "позафракційний ",
-        "commission": "З питань освіти, науки, культури, спорту, молоді та туризму"
+        "commission": "З питань освіти, науки, культури, спорту, молоді та туризму",
+        "deputyId": "98"
       },
       {
         "pip": "Ніколаєнко Олександр Олександрович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 34,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань життєзабезпечення міста"
+        "commission": "З питань життєзабезпечення міста",
+        "deputyId": "99"
       },
       {
         "pip": "Орєшкін Юрій Ігорович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 49,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань соціального та економічного розвитку, бюджету і фінансів "
+        "commission": "З питань соціального та економічного розвитку, бюджету і фінансів ",
+        "deputyId": "102"
       },
       {
         "pip": "Пидорич Руслан Олександрович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 18,
-        "faction": "\"Нова політика\" "
+        "faction": "\"Нова політика\" ",
+        "deputyId": "104"
       },
       {
         "pip": "Поварчук Анатолій Володимирович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 59,
         "faction": "\"Наш край\" ",
-        "commission": "З питань регуляторної політики, розвитку підприємництва, торгівлі, послуг та захисту прав споживачів"
+        "commission": "З питань регуляторної політики, розвитку підприємництва, торгівлі, послуг та захисту прав споживачів",
+        "deputyId": "107"
       },
       {
         "pip": "Поливяний Сергій Олександрович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 26,
         "faction": "\"Нова політика\" ",
-        "commission": "З питань регуляторної політики, розвитку підприємництва, торгівлі, послуг та захисту прав споживачів"
+        "commission": "З питань регуляторної політики, розвитку підприємництва, торгівлі, послуг та захисту прав споживачів",
+        "deputyId": "110"
       },
       {
         "pip": "Полухін Володимир Федорович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 33,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань освіти, науки, культури, спорту, молоді та туризму "
+        "commission": "З питань освіти, науки, культури, спорту, молоді та туризму ",
+        "deputyId": "114"
       },
       {
         "pip": "Полюсов Василь Вячеславович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 51,
         "faction": "\"Наш край\" ",
-        "commission": "З питань комунальної власності, ресурсів, приватизації, архітектури та земельних відносин, заступник голови комісії "
+        "commission": "З питань комунальної власності, ресурсів, приватизації, архітектури та земельних відносин, заступник голови комісії ",
+        "deputyId": "116"
       },
       {
         "pip": "Прасол Михайло Вікторович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 38,
         "faction": "\"Українське об'єднання патріотів-УКРОП\", голова фракції ",
-        "commission": "З питань комунальної власності, ресурсів, приватизації, архітектури та земельних відносин"
+        "commission": "З питань комунальної власності, ресурсів, приватизації, архітектури та земельних відносин",
+        "deputyId": "118"
       },
       {
         "pip": "Пріт Віктор Іванович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 5,
         "faction": "Об'єднання \"Самопоміч\"  ",
-        "commission": "З питань екології"
+        "commission": "З питань екології",
+        "deputyId": "119"
       },
       {
         "pip": "Ревчук Ольга Андріївна",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 14,
         "faction": "\"Солідарність\"",
-        "commission": "З питань екології, секретар комісії"
+        "commission": "З питань екології, секретар комісії",
+        "deputyId": "120"
       },
       {
         "pip": "Рябцев Віталій Володимирович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 55,
         "faction": "ВО \"Батьківщина\"",
-        "commission": "З питань життєзабезпечення міста"
+        "commission": "З питань життєзабезпечення міста",
+        "deputyId": "122"
       },
       {
         "pip": "Сідельникова Олена Леонідівна",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 63,
         "faction": "\"Українське об'єднання патріотів-УКРОП\", секретар фракції ",
-        "commission": "З питань депутатської діяльності, регламенту, законності, правопорядку та запобігання корупції, секретар комісії"
+        "commission": "З питань депутатської діяльності, регламенту, законності, правопорядку та запобігання корупції, секретар комісії",
+        "deputyId": "123"
       },
       {
         "pip": "Сілін Микола Михайлович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 39,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань екології, заступник голови комісії"
+        "commission": "З питань екології, заступник голови комісії",
+        "deputyId": "124"
       },
       {
         "pip": "Сірий Дмитро Вікторович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 55,
         "faction": "позафракційний ",
-        "commission": "З питань життєзабезпечення міста"
+        "commission": "З питань життєзабезпечення міста",
+        "deputyId": "125"
       },
       {
         "pip": "Согорін Андрій Анатолійович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 57,
         "faction": "\"Солідарність\"",
-        "commission": "З питань депутатської діяльності, регламенту, законності, правопорядку та запобігання корупції, голова комісії "
+        "commission": "З питань депутатської діяльності, регламенту, законності, правопорядку та запобігання корупції, голова комісії ",
+        "deputyId": "126"
       },
       {
         "pip": "Старцев Генадій Валерійович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 59,
         "faction": "\"Українське об'єднання патріотів-УКРОП\"",
-        "commission": "З питань охорони здоров'я та соціального захисту населення, заступник голови комісії "
+        "commission": "З питань охорони здоров'я та соціального захисту населення, заступник голови комісії ",
+        "deputyId": "129"
       },
       {
         "pip": "Таран Роман Олегович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 46,
         "faction": "\"Наш край\", заступник голови фракції ",
-        "commission": "З питань соціального та економічного розвитку, бюджету і фінансів"
+        "commission": "З питань соціального та економічного розвитку, бюджету і фінансів",
+        "deputyId": "130"
       },
       {
         "pip": "Тишечко Віталій Володимирович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 22,
         "faction": "\"Нова політика\" ",
-        "commission": "З питань соціального та економічного розвитку, бюджету і фінансів, заступник голови комісії "
+        "commission": "З питань соціального та економічного розвитку, бюджету і фінансів, заступник голови комісії ",
+        "deputyId": "133"
       },
       {
         "pip": "Тищенко Олександр Вікторович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 47,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань комунальної власності, ресурсів, приватизації, архітектури та земельних відносин"
+        "commission": "З питань комунальної власності, ресурсів, приватизації, архітектури та земельних відносин",
+        "deputyId": "134"
       },
       {
         "pip": "Трюхан Дарія Аркадіївна",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 10,
         "faction": "Об'єднання \"Самопоміч\", голова фракції",
-        "commission": "З питань соціального та економічного розвитку, бюджету і фінансів, секретар комісії "
+        "commission": "З питань соціального та економічного розвитку, бюджету і фінансів, секретар комісії ",
+        "deputyId": "136"
       },
       {
         "pip": "Чумаченко Ігор Миколайович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 2,
         "faction": "\"Опозиційний блок\"",
-        "commission": "З питань комунальної власності, ресурсів, приватизації, архітектури та земельних відносин, голова комісії "
+        "commission": "З питань комунальної власності, ресурсів, приватизації, архітектури та земельних відносин, голова комісії ",
+        "deputyId": "135"
       },
       {
         "pip": "Ярошенко Руслан Вікторович",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 61,
         "faction": "\"Українське об'єднання патріотів-УКРОП\"",
-        "commission": "З питань екології "
+        "commission": "З питань екології ",
+        "deputyId": "132"
       },
       {
         "pip": "Воєводін Ігор Васильович ",
         "description": "Депутат Запорізької міської ради сьомого скликання ",
         "constituency": 35,
         "faction": "\"Наш край\" ",
-        "commission": "З питань депутатської діяльності, регламенту, законності, правопорядку та запобігання корупції "
+        "commission": "З питань депутатської діяльності, регламенту, законності, правопорядку та запобігання корупції ",
+        "deputyId": "241"
       }
     ]
-  },
-  "linksToParse": [
-    "https://zp.gov.ua/uk/persons/item/41",
-    "https://zp.gov.ua/uk/persons/item/56",
-    "https://zp.gov.ua/uk/persons/item/65",
-    "https://zp.gov.ua/uk/persons/item/66",
-    "https://zp.gov.ua/uk/persons/item/73",
-    "https://zp.gov.ua/uk/persons/item/75",
-    "https://zp.gov.ua/uk/persons/item/78",
-    "https://zp.gov.ua/uk/persons/item/81",
-    "https://zp.gov.ua/uk/persons/item/83",
-    "https://zp.gov.ua/uk/persons/item/85",
-    "https://zp.gov.ua/uk/persons/item/87",
-    "https://zp.gov.ua/uk/persons/item/90",
-    "https://zp.gov.ua/uk/persons/item/91",
-    "https://zp.gov.ua/uk/persons/item/93",
-    "https://zp.gov.ua/uk/persons/item/95",
-    "https://zp.gov.ua/uk/persons/item/97",
-    "https://zp.gov.ua/uk/persons/item/100",
-    "https://zp.gov.ua/uk/persons/item/101",
-    "https://zp.gov.ua/uk/persons/item/103",
-    "https://zp.gov.ua/uk/persons/item/105",
-    "https://zp.gov.ua/uk/persons/item/106",
-    "https://zp.gov.ua/uk/persons/item/108",
-    "https://zp.gov.ua/uk/persons/item/111",
-    "https://zp.gov.ua/uk/persons/item/113",
-    "https://zp.gov.ua/uk/persons/item/115",
-    "https://zp.gov.ua/uk/persons/item/117",
-    "https://zp.gov.ua/uk/persons/item/127",
-    "https://zp.gov.ua/uk/persons/item/128",
-    "https://zp.gov.ua/uk/persons/item/131",
-    "https://zp.gov.ua/uk/persons/item/67",
-    "https://zp.gov.ua/uk/persons/item/71",
-    "https://zp.gov.ua/uk/persons/item/77",
-    "https://zp.gov.ua/uk/persons/item/80",
-    "https://zp.gov.ua/uk/persons/item/82",
-    "https://zp.gov.ua/uk/persons/item/84",
-    "https://zp.gov.ua/uk/persons/item/86",
-    "https://zp.gov.ua/uk/persons/item/88",
-    "https://zp.gov.ua/uk/persons/item/89",
-    "https://zp.gov.ua/uk/persons/item/92",
-    "https://zp.gov.ua/uk/persons/item/94",
-    "https://zp.gov.ua/uk/persons/item/96",
-    "https://zp.gov.ua/uk/persons/item/98",
-    "https://zp.gov.ua/uk/persons/item/99",
-    "https://zp.gov.ua/uk/persons/item/102",
-    "https://zp.gov.ua/uk/persons/item/104",
-    "https://zp.gov.ua/uk/persons/item/107",
-    "https://zp.gov.ua/uk/persons/item/110",
-    "https://zp.gov.ua/uk/persons/item/114",
-    "https://zp.gov.ua/uk/persons/item/116",
-    "https://zp.gov.ua/uk/persons/item/118",
-    "https://zp.gov.ua/uk/persons/item/119",
-    "https://zp.gov.ua/uk/persons/item/120",
-    "https://zp.gov.ua/uk/persons/item/122",
-    "https://zp.gov.ua/uk/persons/item/123",
-    "https://zp.gov.ua/uk/persons/item/124",
-    "https://zp.gov.ua/uk/persons/item/125",
-    "https://zp.gov.ua/uk/persons/item/126",
-    "https://zp.gov.ua/uk/persons/item/129",
-    "https://zp.gov.ua/uk/persons/item/130",
-    "https://zp.gov.ua/uk/persons/item/133",
-    "https://zp.gov.ua/uk/persons/item/134",
-    "https://zp.gov.ua/uk/persons/item/136",
-    "https://zp.gov.ua/uk/persons/item/135",
-    "https://zp.gov.ua/uk/persons/item/132",
-    "https://zp.gov.ua/uk/persons/item/241"
-  ]
+  }
 }

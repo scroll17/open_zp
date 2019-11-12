@@ -15,7 +15,7 @@ const {
 
 module.exports = async (arrayLinks, typeParseLinks) => {
 
-    const filedInDB = FIELDS_IN_DB.get("parseDataOfDeputies"); // TODO
+    const filedInDB = FIELDS_IN_DB.get(typeParseLinks);
 
 
     const clearValue = (value) => value.replace(":", "").trim().toLowerCase(); // удаляет лищние пробелы -> удаляет символ ":" -> приводит в нижний регистр
@@ -54,15 +54,15 @@ module.exports = async (arrayLinks, typeParseLinks) => {
                         });
                     });
 
-                    if(indexOfTheData.length < 4){  // добавляем в массив недостающий обьект
-
-                        indexOfTheData.push({
-                            text: "",
-                            index: allText.length
-                        });
-                        // обьект указует на индекс конца строки
-                        // нужно для правильного парсинга исключительных страниц
-                    }
+                    // if(indexOfTheData.length < 4){  // добавляем в массив недостающий обьект
+                    //
+                    //     indexOfTheData.push({
+                    //         text: "",
+                    //         index: allText.length
+                    //     });
+                    //     // обьект указует на индекс конца строки
+                    //     // нужно для правильного парсинга исключительных страниц
+                    // }
 
                     indexOfTheData.forEach( (data, index) => {
 
@@ -109,7 +109,7 @@ module.exports = async (arrayLinks, typeParseLinks) => {
 
                     })
 
-                }else {
+                } else {
 
                     const header = clearValue($(elem)
                         .children("strong")
@@ -151,8 +151,6 @@ module.exports = async (arrayLinks, typeParseLinks) => {
                     }
                 }
             });
-
-            console.log("deputy", deputy)
 
             return deputy
 

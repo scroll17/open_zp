@@ -1,9 +1,8 @@
 const path = require("path");
 
 const xlsx = require("node-xlsx");
-const translit = require('translit-rus-eng');
 
-const { omitBy, isEmpty, cloneDeep, isUndefined } = require("lodash");
+const { omitBy, isEmpty, isUndefined } = require("lodash");
 
 module.exports = async (req, res, next) => {
 
@@ -13,7 +12,6 @@ module.exports = async (req, res, next) => {
             files
         },
         fieldsInDB,
-        //typeParseLinks TODO
     } = req.body;
 
 
@@ -41,7 +39,7 @@ module.exports = async (req, res, next) => {
             delete dataFromFile['1'];
 
 
-            Object.keys(dataFromFile).forEach(key => {
+            Object.keys(dataFromFile).forEach( key => {
                 const dataField = dataFromFile[key];
 
                 const data = {};
@@ -50,6 +48,7 @@ module.exports = async (req, res, next) => {
 
                     if (dbField === 'link') {
 
+                        data[fieldsInDB["id"]] = +value.match(/\d+/)[0];
                         req.body.linksToParse.push(value);
 
                     } else if (!isUndefined(dbField)) {
@@ -64,7 +63,7 @@ module.exports = async (req, res, next) => {
             return Promise.resolve();
         }));
 
-        //res.send(req.body)
+        res.send(req.body);
 
         next()
 
