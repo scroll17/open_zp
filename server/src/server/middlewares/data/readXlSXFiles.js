@@ -11,6 +11,7 @@ module.exports = async (req, res, next) => {
             folderPath,
             files
         },
+        resources,
         fieldsInDB,
     } = req.body;
 
@@ -25,7 +26,7 @@ module.exports = async (req, res, next) => {
         req.body.DBData = DBData;
         req.body.linksToParse = [];
 
-        await Promise.all(files.map( async file => {
+        await Promise.all(files.map( async (file, index) => {
 
             const filePath = path.join(folderPath, file);
 
@@ -43,6 +44,9 @@ module.exports = async (req, res, next) => {
                 const dataField = dataFromFile[key];
 
                 const data = {};
+                data["maintainer"] = resources[index].maintainer;
+                data["publicationTime"] = resources[index].qa.created;
+
                 dataField.forEach((value, index) => {
                     const dbField = fieldsInDB[index];
 

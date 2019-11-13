@@ -29,7 +29,7 @@ const FIELDS_IN_DB = new Map([
     [
         RESOURCE_NAME.dataStanOfDeputies,
         {
-            1: 'pip',
+            1: 'fio',
             2: 'description',
             3: 'constituency',
             4: 'faction',

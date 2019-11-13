@@ -22,6 +22,7 @@ module.exports = async (req, res, next) => {
                 size: resource.size,
                 name: resource.name.replace(`.${resourceFormat}`, ""),
                 url: resource.url,
+                maintainer: result.maintainer,
                 qa: {
                     format: resourceFormat,
                     created: resource.created
