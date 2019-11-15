@@ -1,0 +1,28 @@
+services:
+
+  server-dev:
+    build:
+      context: ./server
+
+    environment:
+      NODE_ENV: development
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db-dev
+    volumes:
+      - ./var/www/html/images:/var/www/html/images
+      - ./server:/server
+      - /server/node_modules
+
+  db-dev:
+    image: postgres:10
+    environment:
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=todo-dev
+    ports:
+      - "5432:5432"
+
+volumes:
+  server-dev:
