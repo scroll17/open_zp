@@ -43,7 +43,7 @@ module.exports = (sequelize, DataTypes) => {
         },
         constituency: {
             type: DataTypes.INTEGER,
-            allowNull: false,
+            allowNull: true,
             validate: {
                 isInt: true,
             },
