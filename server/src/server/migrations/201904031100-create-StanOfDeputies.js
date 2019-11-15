@@ -39,14 +39,14 @@ module.exports = {
             },
             commission: {
                 type: Sequelize.STRING,
-                allowNull: false,
+                allowNull: true,
                 validation: {
                     notEmpty: true,
                 },
             },
             constituency: {
                 type: Sequelize.INTEGER,
-                allowNull: true,
+                allowNull: false,
                 validate: {
                     isInt: true,
                 },
