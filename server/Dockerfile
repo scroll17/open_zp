@@ -4,7 +4,7 @@ ARG NODE_ENV="development"
 
 RUN mkdir /server
 
-RUN mkdir -p /var/www/html/images
+RUN mkdir -p /var/www.js/html/images
 
 WORKDIR /server
 

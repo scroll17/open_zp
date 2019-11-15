@@ -1,5 +1,3 @@
-
-
 module.exports = (sequelize, DataTypes) => {
     const StanOfDeputies = sequelize.define('StanOfDeputies', {
         id: {
@@ -30,7 +28,7 @@ module.exports = (sequelize, DataTypes) => {
             },
         },
         faction: {
-            type: DataTypes.STRING,
+            type: DataTypes.TEXT,
             allowNull: false,
             validate: {
                 isEmail: true,

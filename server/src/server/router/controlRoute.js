@@ -7,6 +7,11 @@ const readXlSXFiles = require("../middlewares/data/readXlSXFiles");
 const parserHTMLPages = require('../middlewares/parser/parserHTMLPages');
 
 const {
+    createStanOfDeputies,
+    createDeputies
+} = require("../controllers/rootController");
+
+const {
     API: {
         CONTROL: {
             DATA_ON_DEPUTIES
@@ -23,6 +28,8 @@ const {
     TYPE_PARSE_RESOURCE
 } = require("../constants");
 
+const json = require('../../_json/deputies');
+
 
 const defaultMiddlewareForCreate = [
     getDataOnIdentificationCodeSet,
@@ -32,16 +39,22 @@ const defaultMiddlewareForCreate = [
 
 router.get(`${CREATE}${DATA_ON_DEPUTIES}`,
     (req, res, next) => {
-        req.body = {
-            identificationCodeSet: RESOURCE_ID.get(dataStanOfDeputies),     // ---> id для запроса к OpenData API
-            resourceName: dataStanOfDeputies,                               // ---> имя возращаемого ресурса ( для создания папки с файлами)
-            fieldsInDB: FIELDS_IN_DB.get(dataStanOfDeputies),               // ---> поля роспарсеного файла которые будут сохраняться в бд
-            typeParseLinks: TYPE_PARSE_RESOURCE.get(dataStanOfDeputies)     // ---> тип парсинга страниц по данным из файла
-        };
+
+        req.body = json;
         next();
+
+        // req.body = {
+        //     identificationCodeSet: RESOURCE_ID.get(dataStanOfDeputies),     // ---> id для запроса к OpenData API
+        //     resourceName: dataStanOfDeputies,                               // ---> имя возращаемого ресурса ( для создания папки с файлами)
+        //     fieldsInDB: FIELDS_IN_DB.get(dataStanOfDeputies),               // ---> поля роспарсеного файла которые будут сохраняться в бд
+        //     typeParseLinks: TYPE_PARSE_RESOURCE.get(dataStanOfDeputies)     // ---> тип парсинга страниц по данным из файла
+        // };
+        // next();
     },
-    defaultMiddlewareForCreate,
-    //parserHTMLPages
+    //defaultMiddlewareForCreate,
+    //parserHTMLPages,
+    createStanOfDeputies,
+    createDeputies
 );
 
 

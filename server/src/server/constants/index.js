@@ -16,6 +16,8 @@ const {
 
 const { API } = require("./api");
 
+const { HTTP_CODE } = require('./http');
+
 const PORT = process.env.PORT || 3000;
 
 
@@ -34,5 +36,7 @@ module.exports = {
     TYPE_PARSE,
     TYPE_PARSE_RESOURCE,
 
-    DESIRED_FIELDS
+    DESIRED_FIELDS,
+
+    HTTP_CODE
 };

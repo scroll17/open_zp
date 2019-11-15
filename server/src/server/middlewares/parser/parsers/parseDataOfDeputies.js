@@ -9,13 +9,10 @@ const { OK } = require('http-status-codes');
 const {
     DESIRED_FIELDS: {
         parseDataOfDeputies
-    },
-    FIELDS_IN_DB
+    }
 } = require('../../../constants');
 
-module.exports = async (arrayLinks, typeParseLinks) => {
-
-    const filedInDB = FIELDS_IN_DB.get(typeParseLinks);
+module.exports = async (arrayLinks, fieldsInDB) => {
 
 
     const clearValue = (value) => value.replace(":", "").trim().toLowerCase(); // удаляет лищние пробелы -> удаляет символ ":" -> приводит в нижний регистр
@@ -31,8 +28,8 @@ module.exports = async (arrayLinks, typeParseLinks) => {
             const $ = cheerio.load(html); // загружаем страницу в cheerio
             const text = $('#divAbout div.content-text > p').has('strong'); // получаем все <p> внутри <div>-a с данными
 
-            deputy[filedInDB["img"]] = $('#divPrint .cms-person-img').attr('src'); // получаем ссылку на фотографию
-            deputy[filedInDB["link"]] = link;
+            deputy[fieldsInDB["img"]] = $('#divPrint .cms-person-img').attr('src'); // получаем ссылку на фотографию
+            deputy[fieldsInDB["link"]] = link;
 
             text.each((i, elem) => {
 
@@ -70,8 +67,8 @@ module.exports = async (arrayLinks, typeParseLinks) => {
 
                         if(index === 0){ // с первого елемента сохраняем и текст и "заголовок"
 
-                            deputy[filedInDB[i]] = data.text; // "заголовок"
-                            deputy[filedInDB["info"]] = allText.slice(data.text.length, nextValue.index).trim();
+                            deputy[fieldsInDB[i]] = data.text; // "заголовок"
+                            deputy[fieldsInDB["info"]] = allText.slice(data.text.length, nextValue.index).trim();
                             // data.text.length --> индекс где заканчиваеться "заголовок"
                             // достаём текст из общей строки
 
@@ -81,7 +78,7 @@ module.exports = async (arrayLinks, typeParseLinks) => {
 
                             if(parseDataOfDeputies.includes(value)){ // проверяем соотвествует ли "заголовок" массиву нужных полей
 
-                                const field = filedInDB[value]; // получаем название поля в БД
+                                const field = fieldsInDB[value]; // получаем название поля в БД
 
                                 const text = allText.slice(data.index + value.length, nextValue.index);
                                 // data.index + value.length --> индекс где заканчиваеться заголовок
@@ -126,13 +123,13 @@ module.exports = async (arrayLinks, typeParseLinks) => {
 
                     if(i === 0){ // у первого тега <p> мы берём текст из <strong> и <p>
 
-                        deputy[filedInDB[i]] = header;
-                        deputy[filedInDB["info"]] = text;
+                        deputy[fieldsInDB[i]] = header;
+                        deputy[fieldsInDB["info"]] = text;
 
                     }else if(parseDataOfDeputies.includes(header)){ // проверяем соотвествует ли "заголовок" массиву нужных полей
 
                         let dataFromText;
-                        const field = filedInDB[header]; // получаем название поля в БД
+                        const field = fieldsInDB[header]; // получаем название поля в БД
 
                         if(header === 'освіта'){
 

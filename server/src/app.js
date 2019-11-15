@@ -2,8 +2,6 @@ const express = require('express');
 
 const errorHandlerDefault = require("./server/errorHandlers/errorHandlerDefault");
 
-const parserHTMLPages = require('./server/middlewares/parser/parserHTMLPages');
-
 const router = require("./server/router/index");
 const cors = require('cors');
 
@@ -18,7 +16,7 @@ app.use(
     errorHandlerDefault,
 );
 
-//parserHTMLPages() TODO
+
 
 module.exports = app;
 
