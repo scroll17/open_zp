@@ -1,35 +1,35 @@
 module.exports = (sequelize, DataTypes) => {
-    return sequelize.define('Radiation', {
+    return sequelize.define('DecisionDeputies', {
         id: {
             allowNull: false,
-            primaryKey: true,
             autoIncrement: true,
+            primaryKey: true,
             type: DataTypes.INTEGER,
         },
-        date: {
+        title: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            validate: {
+                notEmpty: true,
+            },
+        },
+        dateAccepted: {
             type: DataTypes.DATE,
             allowNull: false,
             validate: {
                 isDate: true
-            },
+            }
         },
-        time: {
+        link: {
             type: DataTypes.STRING,
             allowNull: false,
             validate: {
-                notEmpty: true
+                notEmpty: true,
             },
-        },
-        indicator: {
-            type: DataTypes.REAL,
-            allowNull: false,
-            validate: {
-                isNumeric: true
-            },
-            comment: "мкР/год"
         }
     }, {
+        timestamps: false,
         paranoid: true,
-        freezeTableName: true
     });
+
 };
