@@ -48,30 +48,30 @@ module.exports = (sequelize, DataTypes) => {
                 isInt: true,
             },
         },
-        deputyId: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-            references: {
-                model: 'Deputies',
-                key: 'id'
-            },
-        },
         publicationTime: {
             type: DataTypes.DATE,
             allowNull: false,
             validate: {
                 isDate: true,
             }
-        }
+        },
+        link: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            validate: {
+                notEmpty: true,
+            },
+            comment: "Посилання на Депутата"
+        },
     }, {
         timestamps: false,
         paranoid: true,
     });
 
 
-    StanOfDeputies.associate = function (models) {
-        StanOfDeputies.belongsTo(models.Deputies, {foreignKey: 'deputyId', targetKey: 'id'})
-    };
+    // StanOfDeputies.associate = function (models) {
+    //     StanOfDeputies.belongsTo(models.Deputies, {foreignKey: 'deputyId', targetKey: 'id'})
+    // };
 
     return StanOfDeputies;
 };

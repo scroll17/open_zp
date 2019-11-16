@@ -15,7 +15,7 @@ module.exports = (sequelize, DataTypes) => {
             },
         },
         info: {
-            type: DataTypes.STRING,
+            type: DataTypes.TEXT,
             allowNull: false,
             validate: {
                 notEmpty: true,
@@ -64,9 +64,9 @@ module.exports = (sequelize, DataTypes) => {
     });
 
 
-    Deputies.associate = function (models) {
-        Deputies.hasMany(models.StanOfDeputies, { foreignKey: 'deputyId', targetKey: 'id' });
-    };
+    // Deputies.associate = function (models) {
+    //     Deputies.hasMany(models.StanOfDeputies, { foreignKey: 'deputyId', targetKey: 'id' });
+    // };
 
     return Deputies;
 };

@@ -35,7 +35,6 @@ const FIELDS_IN_DB = new Map([
             4: 'faction',
             5: 'commission',
             6: 'link',
-            "id": "deputyId"
         }
     ],
     [

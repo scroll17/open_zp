@@ -40,21 +40,18 @@ const defaultMiddlewareForCreate = [
 router.get(`${CREATE}${DATA_ON_DEPUTIES}`,
     (req, res, next) => {
 
-        req.body = json;
+        req.body = {
+            identificationCodeSet: RESOURCE_ID.get(dataStanOfDeputies),     // ---> id для запроса к OpenData API
+            resourceName: dataStanOfDeputies,                               // ---> имя возращаемого ресурса ( для создания папки с файлами)
+            fieldsInDB: FIELDS_IN_DB.get(dataStanOfDeputies),               // ---> поля роспарсеного файла которые будут сохраняться в бд
+            typeParseLinks: TYPE_PARSE_RESOURCE.get(dataStanOfDeputies)     // ---> тип парсинга страниц по данным из файла
+        };
         next();
-
-        // req.body = {
-        //     identificationCodeSet: RESOURCE_ID.get(dataStanOfDeputies),     // ---> id для запроса к OpenData API
-        //     resourceName: dataStanOfDeputies,                               // ---> имя возращаемого ресурса ( для создания папки с файлами)
-        //     fieldsInDB: FIELDS_IN_DB.get(dataStanOfDeputies),               // ---> поля роспарсеного файла которые будут сохраняться в бд
-        //     typeParseLinks: TYPE_PARSE_RESOURCE.get(dataStanOfDeputies)     // ---> тип парсинга страниц по данным из файла
-        // };
-        // next();
     },
-    //defaultMiddlewareForCreate,
-    //parserHTMLPages,
+    defaultMiddlewareForCreate,
+    parserHTMLPages,
+    createDeputies,
     createStanOfDeputies,
-    createDeputies
 );
 
 

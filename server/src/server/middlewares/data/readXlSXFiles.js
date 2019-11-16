@@ -52,7 +52,7 @@ module.exports = async (req, res, next) => {
 
                     if (dbField === 'link') {
 
-                        data[fieldsInDB["id"]] = +value.match(/\d+/)[0];
+                        data[dbField] = value;
                         req.body.linksToParse.push(value);
 
                     } else if (!isUndefined(dbField)) {
@@ -67,7 +67,7 @@ module.exports = async (req, res, next) => {
             return Promise.resolve();
         }));
 
-        //res.send(req.body);
+        res.send(req.body);
 
         next()
 

@@ -51,21 +51,20 @@ module.exports = {
                     isInt: true,
                 },
             },
-            deputyId: {
-                type: Sequelize.INTEGER,
-                allowNull: false,
-                references: {
-                    model: 'Deputies',
-                    key: 'id'
-                },
-            },
             publicationTime: {
                 type: Sequelize.DATE,
                 allowNull: false,
                 validate: {
                     isDate: true,
                 }
-            }
+            },
+            link: {
+                type: Sequelize.STRING,
+                allowNull: false,
+                validate: {
+                    notEmpty: true,
+                },
+            },
         });
     },
     down: (queryInterface, Sequelize) => {

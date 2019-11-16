@@ -28,7 +28,6 @@ module.exports = {
                 validate: {
                     isNumeric: true
                 },
-                comment: "мкР/год"
             },
             createdAt: {
                 type: Sequelize.DATE,
