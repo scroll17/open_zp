@@ -44,11 +44,14 @@ module.exports = async (req, res, next) => {
                 const dataField = dataFromFile[key];
 
                 const data = {};
-                data["maintainer"] = resources[index].maintainer;
-                data["publicationTime"] = resources[index].qa.created;
+                if(fieldsInDB["publicationTime"]){
+                    data["publicationTime"] = resources[index].qa.created;
+                }
+
 
                 dataField.forEach((value, index) => {
                     const dbField = fieldsInDB[index];
+
 
                     if (dbField === 'link') {
 

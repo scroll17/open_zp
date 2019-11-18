@@ -5,10 +5,12 @@ const RESOURCE_INFORMATION = "https://data.gov.ua/api/3/action/resource_show?id=
 
 const RESOURCE_NAME = {
     dataStanOfDeputies: "Дані про депутатів",
+    dataOfRadiation: "Дані про радіацію",
 };
 
 const RESOURCE_ID = new Map([
-    [RESOURCE_NAME.dataStanOfDeputies, "1ed75809-cad4-44f6-ab37-3e6c7475eb5a"]
+    [RESOURCE_NAME.dataStanOfDeputies, "1ed75809-cad4-44f6-ab37-3e6c7475eb5a"],
+    [RESOURCE_NAME.dataOfRadiation, "18c18c13-f6d7-4097-bcca-5ec4ba8481b9"],
 ]);
 
 
@@ -35,6 +37,15 @@ const FIELDS_IN_DB = new Map([
             4: 'faction',
             5: 'commission',
             6: 'link',
+            "publicationTime": "publicationTime",
+        }
+    ],
+    [
+        RESOURCE_NAME.dataOfRadiation,
+        {
+            0: "date",
+            1: "time",
+            2: "indicator",
         }
     ],
     [

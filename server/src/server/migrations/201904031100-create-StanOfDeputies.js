@@ -9,13 +9,6 @@ module.exports = {
                 primaryKey: true,
                 type: Sequelize.INTEGER,
             },
-            maintainer: {
-                type: Sequelize.STRING,
-                allowNull: false,
-                validate: {
-                    notEmpty: true,
-                },
-            },
             fio: {
                 type: Sequelize.STRING,
                 allowNull: false,

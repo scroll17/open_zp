@@ -8,16 +8,26 @@ module.exports.createStanOfDeputies = async (req, res, next) => {
         DBData: {
             toDBInsert
         },
-        toSend
+        collatedResources,
     } = req.body;
 
     try{
 
         await StanOfDeputies.bulkCreate(toDBInsert);
 
-        toSend.push("StanOfDeputies created!");
+        if(collatedResources){
 
-        res.status(CREATED).send(toSend);
+            req.body.DBData.toDBInsert = collatedResources;
+            delete req.body.collatedResources;
+
+            req.body.toSend = ["StanOfDeputies created!"];
+            return next();
+
+        }else{
+
+            res.status(CREATED).send("StanOfDeputies created!");
+
+        }
 
     }catch (err) {
         next(new error.BadRequest(err.name))
@@ -27,16 +37,18 @@ module.exports.createStanOfDeputies = async (req, res, next) => {
 
 module.exports.createDeputies = async (req, res, next) => {
     const {
-        collatedResources
+        toSend,
+        DBData: {
+            toDBInsert
+        },
     } = req.body;
 
     try{
-        await Deputies.bulkCreate(collatedResources);
+        await Deputies.bulkCreate(toDBInsert);
 
-        delete req.body.collatedResources;
-        req.body.toSend = ["Deputies created!"];
+        toSend.push("Deputies created!");
 
-        next();
+        res.status(CREATED).send(toSend);
 
     }catch (err) {
         next(new error.BadRequest(err.name))

@@ -27,8 +27,9 @@ module.exports = (sequelize, DataTypes) => {
                 isNumeric: true
             },
             comment: "мкР/год"
-        }
+        },
     }, {
+        timestamps: false,
         paranoid: true,
         freezeTableName: true
     });

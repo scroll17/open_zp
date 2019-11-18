@@ -6,7 +6,8 @@ const API = {
     },
 
     CONTROL:{
-        DATA_ON_DEPUTIES: '/data-on-deputies'
+        DATA_ON_DEPUTIES: '/data-on-deputies',
+        DATA_ON_RADIATION: '/data-on-radiation',
     }
 };
 

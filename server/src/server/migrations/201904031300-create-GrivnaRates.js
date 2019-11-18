@@ -1,7 +1,5 @@
 'use strict';
 
-const { CONTEST_TYPE, CONTEST_STATUS } = require('../constants');
-
 module.exports = {
     up: (queryInterface, Sequelize) => {
         return queryInterface.createTable('GrivnaRates', {
@@ -41,7 +39,6 @@ module.exports = {
                 type: Sequelize.DATE,
                 defaultValue: Sequelize.NOW
             }
-
         });
     },
     down: (queryInterface, Sequelize) => {

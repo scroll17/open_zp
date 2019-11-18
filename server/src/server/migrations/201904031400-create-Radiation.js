@@ -29,13 +29,6 @@ module.exports = {
                     isNumeric: true
                 },
             },
-            createdAt: {
-                type: Sequelize.DATE,
-                defaultValue: Sequelize.NOW
-            },
-            updatedAt: {
-                type: Sequelize.DATE
-            }
         });
     },
     down: (queryInterface, Sequelize) => {

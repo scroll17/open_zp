@@ -2,7 +2,6 @@ module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.bulkInsert('StanOfDeputies', [
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Адаманов Олег Федорович ',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -12,7 +11,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/41'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Афанасьєв Олег Володимирович ',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -22,7 +20,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/56'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Балашов Сергій Михайлович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -32,7 +29,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/65'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Басов Олексій Юрійович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -42,7 +38,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/66'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Бєлий Микола Іванович ',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -52,7 +47,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/73'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Божко Руслан Анатолійович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -62,7 +56,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/75'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Васильєв Денис Анатолійович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -72,7 +65,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/78'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Васильчук Геннадій Миколайович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -82,7 +74,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/81'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Вєдєнєєв Олександр Євгенович ',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -92,7 +83,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/83'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Володьков Микола Миколайович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -102,7 +92,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/85'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Воронцов Олександр Васильович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -112,7 +101,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/87'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Галкіна Олена Георгіївна',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -122,7 +110,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/90'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Гальчинська Зінаїда Миколаївна\r\n\r\n',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -132,7 +119,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/91'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Гараненко Роман Сергійович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -142,7 +128,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/93'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Германюк Олег Борисович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -152,7 +137,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/95'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Гончар Олександр Васильович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -162,7 +146,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/97'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Гординський Віктор Георгійович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -172,7 +155,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/100'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Гринь  Віктор Анатолійович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -182,7 +164,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/101'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Губіна  Оксана Олександрівна',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -192,7 +173,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/103'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Гурська  Ніна Миколаївна',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -202,7 +182,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/105'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Дорошенко  Юрій Леонідович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -212,7 +191,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/106'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Зайцев Вячеслав Олексійович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -222,7 +200,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/108'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Кальцев Володимир Федорович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -232,7 +209,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/111'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Клець Ірина Миколаївна',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -242,7 +218,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/113'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Кобзарюк Олександр Олександрович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -252,7 +227,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/115'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Коломоєць Олег Олександрович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -262,7 +236,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/117'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Константинов Олександр Олександрович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -272,7 +245,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/127'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Константинова Катерина Андріївна',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -282,7 +254,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/128'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Корольов Олег Миколайович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -291,7 +262,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/131'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Костенко Ірина Борисівна',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -301,7 +271,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/67'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Кривцов Андрій Іванович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -311,7 +280,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/71'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Кругла Людмила Юхимівна',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -321,7 +289,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/77'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Лоцман Сергій Леонідович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -331,7 +298,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/80'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Лученко Андрій Іванович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -341,7 +307,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/82'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Максимов Володимир Степанович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -351,7 +316,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/84'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Маляренко Андрій Євгенович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -361,7 +325,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/86'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Михайлик Павло Андрійович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -371,7 +334,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/88'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Молчанов Михайло Миколайович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -381,7 +343,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/89'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Москаленко Володимир Анатолійович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -390,7 +351,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/92'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Мотренко Олександр Володимирович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -400,7 +360,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/94'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Нагіх Костянтин Валерійович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -410,7 +369,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/96'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Наумов Геннадій Борисович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -420,7 +378,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/98'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Ніколаєнко Олександр Олександрович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -430,7 +387,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/99'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Орєшкін Юрій Ігорович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -440,7 +396,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/102'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Пидорич Руслан Олександрович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -449,7 +404,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/104'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Поварчук Анатолій Володимирович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -459,7 +413,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/107'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Поливяний Сергій Олександрович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -469,7 +422,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/110'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Полухін Володимир Федорович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -479,7 +431,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/114'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Полюсов Василь Вячеславович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -489,7 +440,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/116'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Прасол Михайло Вікторович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -499,7 +449,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/118'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Пріт Віктор Іванович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -509,7 +458,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/119'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Ревчук Ольга Андріївна',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -519,7 +467,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/120'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Рябцев Віталій Володимирович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -529,7 +476,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/122'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Сідельникова Олена Леонідівна',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -539,7 +485,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/123'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Сілін Микола Михайлович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -549,7 +494,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/124'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Сірий Дмитро Вікторович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -559,7 +503,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/125'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Согорін Андрій Анатолійович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -569,7 +512,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/126'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Старцев Генадій Валерійович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -579,7 +521,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/129'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Таран Роман Олегович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -589,7 +530,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/130'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Тишечко Віталій Володимирович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -599,7 +539,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/133'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Тищенко Олександр Вікторович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -609,7 +548,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/134'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Трюхан Дарія Аркадіївна',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -619,7 +557,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/136'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Чумаченко Ігор Миколайович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -629,7 +566,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/135'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-07-17T07:25:21.442560',
         fio: 'Ярошенко Руслан Вікторович',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
@@ -639,7 +575,6 @@ module.exports = {
         link: 'https://zp.gov.ua/uk/persons/item/132'
       },
       {
-        maintainer: 'Ніколаєв Владислав Анатолійович',
         publicationTime: '2019-09-06T10:00:54.839885',
         fio: 'Воєводін Ігор Васильович ',
         description: 'Депутат Запорізької міської ради сьомого скликання ',
