@@ -6,6 +6,7 @@ module.exports = {
             id: {
                 allowNull: false,
                 primaryKey: true,
+                autoIncrement: true,
                 type: Sequelize.INTEGER,
             },
             date: {
@@ -29,16 +30,6 @@ module.exports = {
                     isNumeric: true
                 },
             },
-            createdAt: {
-                allowNull: false,
-                type: Sequelize.DATE,
-                defaultValue: Sequelize.NOW
-            },
-            updatedAt: {
-                allowNull: false,
-                type: Sequelize.DATE,
-                defaultValue: Sequelize.NOW
-            }
         });
     },
     down: (queryInterface, Sequelize) => {

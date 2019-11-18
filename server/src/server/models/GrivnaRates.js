@@ -4,6 +4,7 @@ module.exports = (sequelize, DataTypes) => {
         id: {
             allowNull: false,
             primaryKey: true,
+            autoIncrement: true,
             type: DataTypes.INTEGER,
         },
         date: {
@@ -28,6 +29,7 @@ module.exports = (sequelize, DataTypes) => {
             },
         }
     }, {
+        timestamps: false,
         paranoid: true
     });
 };
