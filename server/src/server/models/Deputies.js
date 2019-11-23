@@ -59,9 +59,7 @@ module.exports = (sequelize, DataTypes) => {
                 notEmpty: true,
             },
         }
-    }, {
-        paranoid: true
-    });
+    }, );
 
 
     // Deputies.associate = function (models) {
