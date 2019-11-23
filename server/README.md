@@ -22,6 +22,7 @@
 * ## `/info` 
     * >prod
         * `/stan-of-deputies`
+            >
             ```javascript
                type: Array
               {
@@ -35,6 +36,7 @@
               }
             ```
         * `/radiation`   
+            >
             ```javascript
               date: Array
               comments: Object
@@ -51,6 +53,7 @@
              }
             ```
         * `/grivna-rates`
+            >
             ```javascript
                type: Array
               {
@@ -62,31 +65,34 @@
             ```
         * `deputies`
             * `/all-deputies`
-            ```javascript
-               type: Array
-              {
-                 id: Number,
-                 fio: String,
-                 photo: String 
-              }
-            ```
+                >
+                ```javascript
+                   type: Array
+                  {
+                     id: Number,
+                     fio: String,
+                     photo: String 
+                  }
+                ```
             * `/deputy-by-name?fio=`
-            ```javascript
-              type: Object
-             {
-                id: Number,
-                fio: String,
-                info: String,
-                citizenship: String,
-                maritalStatus: String,
-                link: String,  
-                photo: String 
-             }   
-            ```
+                >
+                ```javascript
+                  type: Object
+                 {
+                    id: Number,
+                    fio: String,
+                    info: String,
+                    citizenship: String,
+                    maritalStatus: String,
+                    link: String,  
+                    photo: String 
+                 }   
+                ```
             * `/deputy-photo/:id`
-            ```javascript
-              type: Object,
-             {
-                photo: String 
-             }
-            ```
+                >
+                ```javascript
+                  type: Object,
+                 {
+                    photo: String 
+                 }
+                ```
