@@ -24,7 +24,7 @@ module.exports.getDeputyByName = async (req, res, next) => {
 
     try{
 
-        const deputy = await Deputies.findOne({
+        const deputy = await Deputies.findAll({
             where:{
                 fio: {
                     $iLike: `%${fio}%`

@@ -64,6 +64,7 @@
               }   
             ```
         * `deputies`
+        
             * `/all-deputies`
                 >
                 ```javascript
@@ -77,7 +78,7 @@
             * `/deputy-by-name?fio=`
                 >
                 ```javascript
-                  type: Object
+                  type: Array
                  {
                     id: Number,
                     fio: String,
