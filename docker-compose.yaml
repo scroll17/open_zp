@@ -27,6 +27,7 @@ services:
     depends_on:
       - db-dev
     volumes:
+      - ./var/www/html/images:/var/www/html/images
       - ./server:/server
       - /server/node_modules
 

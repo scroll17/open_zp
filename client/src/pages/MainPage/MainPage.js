@@ -6,7 +6,6 @@ import connect from "react-redux/es/connect/connect";
 
 class MainPage extends Component{
 
-
     render() {
         return (<div></div>)
     }
