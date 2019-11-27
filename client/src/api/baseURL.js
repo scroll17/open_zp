@@ -9,6 +9,7 @@ export const  API = {
   ALL_DEPUTIES: '/all-deputies',
   DEPUTY_BY_NAME: '/deputy-by-name',
   DEPUTY_PHOTO: '/deputy-photo',
+  DEPUTY: '/deputy',
 
   STAN_OF_DEPUTIES: '/stan-of-deputies',
 

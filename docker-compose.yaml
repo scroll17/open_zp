@@ -1,6 +1,21 @@
 version: '2'
 services:
 
+  front-react:
+    build:
+      context: ./client
+
+    environment:
+      NODE_ENV: development
+    depends_on:
+      - server-dev
+    volumes:
+      - ./client:/client
+      - /client/node_modules
+    ports:
+      - "5000:5000"
+      - "9000:9000"
+
   server-dev:
     build:
       context: ./server
