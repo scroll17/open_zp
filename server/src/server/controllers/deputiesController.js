@@ -43,6 +43,23 @@ module.exports.getDeputyByName = async (req, res, next) => {
     }
 };
 
+module.exports.getDeputyById = async (req, res, next) => {
+    const { id } = req.params;
+
+    try{
+
+        const deputy = await Deputies.findByPk(id, {
+            attributes: {
+                exclude: ['createdAt', 'updatedAt']
+            }
+        });
+
+        res.send(deputy);
+
+    }catch (err) {
+        next(new error.BadRequest(err.name))
+    }
+};
 
 module.exports.getPhotoDeputyById = async (req, res, next) => {
     const { id } = req.params;

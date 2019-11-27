@@ -89,10 +89,24 @@
                     photo: String 
                  }   
                 ```
+            * `/deputy/:id`
+                >
+                ```javascript
+                  type: Object
+                 {
+                    id: Number,
+                    fio: String,
+                    info: String,
+                    citizenship: String,
+                    maritalStatus: String,
+                    link: String,  
+                    photo: String 
+                 }   
+                ```              
             * `/deputy-photo/:id`
                 >
                 ```javascript
-                  type: Object,
+                  type: Object
                  {
                     photo: String 
                  }

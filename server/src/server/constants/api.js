@@ -15,6 +15,7 @@ const API = {
 
         ALL_DEPUTIES: "/all-deputies",
         DEPUTY_BY_NAME: '/deputy-by-name',
+        DEPUTY_BY_ID: '/deputy/:id',
         DEPUTY_PHOTO_BY_ID: '/deputy-photo/:id',
 
         RADIATION: '/radiation',

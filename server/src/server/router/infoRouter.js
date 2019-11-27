@@ -7,6 +7,7 @@ const {
             RADIATION,
             GRIVNA_RATES,
             DEPUTY_BY_NAME,
+            DEPUTY_BY_ID,
             ALL_DEPUTIES,
             DEPUTY_PHOTO_BY_ID
         }
@@ -27,6 +28,7 @@ const {
 } = require('../controllers/grivnaRatesController');
 
 const {
+    getDeputyById,
     getAllDeputies,
     getDeputyByName,
     getPhotoDeputyById
@@ -36,6 +38,7 @@ const {
 router.get(STAN_OF_DEPUTIES, getStanOfDeputies);
 
 router.get(ALL_DEPUTIES, getAllDeputies);
+router.get(DEPUTY_BY_ID, getDeputyById);
 router.get(DEPUTY_BY_NAME, getDeputyByName);
 router.get(DEPUTY_PHOTO_BY_ID, getPhotoDeputyById);
 
