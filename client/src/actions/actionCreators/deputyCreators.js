@@ -11,7 +11,6 @@ export const getDeputyById = (id) => ({
     type: DEPUTY_ACTION.GET_DEPUTY_BY_ID,
     id
 });
-export const getDeputyPhotoById = (id) => ({
-    type: DEPUTY_ACTION.GET_DEPUTY_PHOTO_BY_ID,
-    id
+export const getStanOfDeputies = () => ({
+    type: DEPUTY_ACTION.GET_STAN_OF_DEPUTIES,
 });
