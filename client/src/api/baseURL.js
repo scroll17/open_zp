@@ -18,11 +18,6 @@ export const  API = {
   GRIVNA_RATES: '/grivna-rates',
 };
 
-export const URL = {
-  HOME: '/',
-  NOT_FOUND: "/not-found",
-};
-
 export const SEARCH = {
   FIO: '?fio=',
 };

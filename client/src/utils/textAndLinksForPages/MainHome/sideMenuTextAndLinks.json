@@ -1,0 +1,22 @@
+[
+  {
+    "to": "/",
+    "iType": "fas fa-male",
+    "text": "Депутати"
+  },
+  {
+    "to": "/stan-of-deputies",
+    "iType": "fas fa-building",
+    "text": "Стан депутатів"
+  },
+  {
+    "to": "/radiation",
+    "iType": "fas fa-radiation",
+    "text": "Радіація в місті"
+  },
+  {
+    "to": "/grivna-rate",
+    "iType": "fas fa-percent",
+    "text": "Курс гривні"
+  }
+]
