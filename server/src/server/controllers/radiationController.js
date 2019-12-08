@@ -30,7 +30,7 @@ module.exports.getRadiation = async (req, res, next) => {
             data: dataToSend,
             comments: {
                 indicator: "мкР/год",
-                dateFormat: "YYYY-MM-DD HH.MM"
+                dateFormat: "YYYY-MM-DD HH.mm"
             }
         });
 

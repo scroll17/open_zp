@@ -13,10 +13,5 @@
     "to": "/radiation",
     "iType": "fas fa-radiation",
     "text": "Радіація в місті"
-  },
-  {
-    "to": "/grivna-rate",
-    "iType": "fas fa-percent",
-    "text": "Курс гривні"
   }
 ]

@@ -1,0 +1,36 @@
+*:before,
+*:after
+  box-sizing: inherit
+
+.lineChart
+  animation: fadeIn 600ms cubic-bezier(.57,.25,.65,1) 1 forwards
+  opacity: 0
+  width: 100%
+  max-height: 400px
+
+  .monthList
+    display: flex
+    justify-content: space-around
+    margin: 15px 0 50px
+
+    .selectMonth
+      padding-bottom: 5px
+      border-bottom: 3px solid red
+
+    .month
+      font-size: 20px
+      cursor: pointer
+      text-transform: capitalize
+
+.aspectRatio
+  background-color: #252429
+  height: 0
+  padding-bottom: 50%
+
+canvas
+  padding: 20px
+
+@keyframes fadeIn
+  to
+    opacity: 1
+

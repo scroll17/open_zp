@@ -3,6 +3,7 @@ import {  Route, Switch } from "react-router-dom";
 
 import Deputies from "../Deputies/Deputies";
 import StanOfDeputies from "../StanOfDeputies/StanOfDeputies";
+import Radiation from "../Radiation/Radiation";
 
 import { URL } from "../../constants";
 
@@ -22,14 +23,10 @@ function SwitchRouters() {
                 path={URL.STAN_OF_DEPUTIES}
                 component={StanOfDeputies}
             />
-            {/*<Route*/}
-            {/*    path={URL.GRIVNA_RATE}*/}
-            {/*    component={}*/}
-            {/*/>*/}
-            {/*<Route*/}
-            {/*    path={URL.RADIATION}*/}
-            {/*    component={}*/}
-            {/*/>*/}
+            <Route
+                path={URL.RADIATION}
+                component={Radiation}
+            />
             {/*<Route component={} />*/}
         </Switch>
     )
